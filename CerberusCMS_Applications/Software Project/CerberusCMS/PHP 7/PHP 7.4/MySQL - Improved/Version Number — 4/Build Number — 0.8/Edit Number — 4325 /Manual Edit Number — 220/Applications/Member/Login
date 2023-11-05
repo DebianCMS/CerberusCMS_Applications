@@ -435,7 +435,7 @@ Have a nice day,
 
 /*
  ============================================================================================================
- + Kill Database Server Query: Check For Valid and Existing Member Account Credentials Data
+ + Kill Database Server Query: Check For Valid and Existing Registered Member Account Credentials Data
  ============================================================================================================
 */
 
@@ -514,11 +514,19 @@ if ($_Application_Module_Login_DB_Query_UPDATE_MEMBER_AUTHORIZATION_TOKEN) {
 
 /*
  ============================================================================================================
- + Kill Database Server Query: Check For Valid Member Account Internet Protocol Address Authorization Token
+ + Kill Database Server Query: Update Registered Member Account Internet Protocol Address Authorization Token
  ============================================================================================================
 */
 
-$_Application_Module_Login_DB_Query_SELECT_MEMBERS_AUTHORIZATION_TOKEN->free_result();
+// [ C ] $_Application_Module_Login_DB_Query_UPDATE_MEMBER_AUTHORIZATION_TOKEN->free_result();
+
+/*
+ ============================================================================================================
+ + Kill Database Server Query: Check For Valid Registered Member Account Internet Protocol Address Authorization Token
+ ============================================================================================================
+*/
+
+// [ C ] $_Application_Module_Login_DB_Query_SELECT_MEMBER_AUTHORIZATION_TOKEN->free_result();
 
 } // [ + ] IF: Registered Member Account :: Authorization Token :: Input Form Variables Have Executed
 
