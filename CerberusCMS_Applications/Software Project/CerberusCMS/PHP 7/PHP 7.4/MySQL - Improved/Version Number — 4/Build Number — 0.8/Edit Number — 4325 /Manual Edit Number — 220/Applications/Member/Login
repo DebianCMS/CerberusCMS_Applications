@@ -340,7 +340,7 @@ $_Application_Module_Login_DB_Query_SELECT_MEMBERS_FOR_AUTHORIZATION_UPDATE_NUMB
  ============================================================================================================
 */
 
-if ($_Application_Module_Login_DB_Query_SELECT_MEMBERS_FOR_AUTHORIZATION_UPDATE_NUMBER_OF_ROWS)) {
+if ($_Application_Module_Login_DB_Query_SELECT_MEMBERS_FOR_AUTHORIZATION_UPDATE_NUMBER_OF_ROWS == "1") {
 
 /*
  ============================================================================================================
@@ -486,7 +486,7 @@ $_Application_Module_Login_DB_Query_SELECT_MEMBER_AUTHORIZATION_TOKEN_NUMBER_OF_
  ============================================================================================================
 */
 
-if ($_Application_Module_Login_DB_Query_SELECT_MEMBER_AUTHORIZATION_TOKEN_NUMBER_OF_ROWS)) {
+if ($_Application_Module_Login_DB_Query_SELECT_MEMBER_AUTHORIZATION_TOKEN_NUMBER_OF_ROWS == "1") {
 
 											echo ($_Application_Module_Member_Message_Login_AUTHORIZATION_TOKEN_VALID);
 
