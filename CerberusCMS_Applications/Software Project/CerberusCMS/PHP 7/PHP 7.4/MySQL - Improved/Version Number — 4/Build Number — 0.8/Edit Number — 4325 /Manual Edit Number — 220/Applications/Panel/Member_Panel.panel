@@ -70,8 +70,8 @@ if ($_GLOBAL_COOKIE_MEMBER_USERNAME && $_GLOBAL_COOKIE_MEMBER_PASSWORD != null) 
 */
 
 $_Application_Module_Panel_Member_Panel_DB_Query_SELECT_SYSTEM_MESSAGE				= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("SELECT * FROM {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_system_message WHERE system_message_member='$_GLOBAL_COOKIE_MEMBER_USERNAME' ORDER BY id DESC LIMIT 1");
-$_Application_Module_Panel_Member_Panel_DB_Query_SELECT_SYSTEM_MESSAGE_Number_Rows		= $_Application_Module_Panel_Member_Panel_DB_Query_SELECT_SYSTEM_MESSAGE->num_rows(MYSQLI_BOTH);
 $_Application_Module_Panel_Member_Panel_DB_Query_SELECT_SYSTEM_MESSAGE_Fetch_Array		= $_Application_Module_Panel_Member_Panel_DB_Query_SELECT_SYSTEM_MESSAGE->fetch_array(MYSQLI_BOTH);
+$_Application_Module_Panel_Member_Panel_DB_Query_SELECT_SYSTEM_MESSAGE_Number_Rows		= $_Application_Module_Panel_Member_Panel_DB_Query_SELECT_SYSTEM_MESSAGE->num_rows;
 
 $_Application_Module_Panel_Member_Panel_LIST_SYSTEM_MESSAGE_AUTHOR				= $_Application_Module_Panel_Member_Panel_DB_Query_SELECT_SYSTEM_MESSAGE_Fetch_Array['system_message_author'];
 $_Application_Module_Panel_Member_Panel_LIST_SYSTEM_MESSAGE_DATA				= $_Application_Module_Panel_Member_Panel_DB_Query_SELECT_SYSTEM_MESSAGE_Fetch_Array['system_message_data'];
@@ -157,7 +157,7 @@ echo ("
  ============================================================================================================
 */
 
-$_Application_Module_Panel_Member_Panel_DB_Query_SELECT_SYSTEM_MESSAGE->free_result();
+// [ C ] $_Application_Module_Panel_Member_Panel_DB_Query_SELECT_SYSTEM_MESSAGE->free_result();
 
 /*
  ============================================================================================================
@@ -165,7 +165,7 @@ $_Application_Module_Panel_Member_Panel_DB_Query_SELECT_SYSTEM_MESSAGE->free_res
  ============================================================================================================
 */
 
-$_Application_Module_Panel_Member_Panel_DB_Query_SELECT_PRIVATE_MESSAGES->free_result();
+// [ C ] $_Application_Module_Panel_Member_Panel_DB_Query_SELECT_PRIVATE_MESSAGES->free_result();
 
 } else {
 
