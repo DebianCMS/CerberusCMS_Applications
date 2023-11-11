@@ -270,8 +270,8 @@ $_Application_Module_Administration_Panels_LIST_APPLICATION_PANEL_FILE_PERMISSIO
 $_Application_Module_Administration_Panels_LIST_APPLICATION_PANEL_FILE_PERMISSION_LOCATION_GLO			= $_Application_Module_Administration_Panels_DB_Query_SELECT_APPLICATION_PANELS_Fetch_Array['application_panel_file_permission_location_glo'];
 $_Application_Module_Administration_Panels_LIST_APPLICATION_PANEL_FILE_PERMISSION_LOCATION_IP_ADDRESS		= $_Application_Module_Administration_Panels_DB_Query_SELECT_APPLICATION_PANELS_Fetch_Array['application_panel_file_permission_location_ip_address'];
 $_Application_Module_Administration_Panels_LIST_APPLICATION_PANEL_FILE_STATUS					= $_Application_Module_Administration_Panels_DB_Query_SELECT_APPLICATION_PANELS_Fetch_Array['application_panel_file_status'];
-$_Application_Module_Administration_Panels_LIST_APPLICATION_PANEL_FILE_TIMESTAMP_INSTALLATION			= $_Application_Module_Administration_Panels_DB_Query_SELECT_APPLICATION_PANELS_Fetch_Array['application_panel_file_version'];
-$_Application_Module_Administration_Panels_LIST_APPLICATION_PANEL_FILE_VERSION					= $_Application_Module_Administration_Panels_DB_Query_SELECT_APPLICATION_PANELS_Fetch_Array['application_panel_file_timestamp_installation'];
+$_Application_Module_Administration_Panels_LIST_APPLICATION_PANEL_FILE_TIMESTAMP_INSTALLATION			= $_Application_Module_Administration_Panels_DB_Query_SELECT_APPLICATION_PANELS_Fetch_Array['application_panel_file_timestamp_installation'];
+$_Application_Module_Administration_Panels_LIST_APPLICATION_PANEL_FILE_VERSION					= $_Application_Module_Administration_Panels_DB_Query_SELECT_APPLICATION_PANELS_Fetch_Array['application_panel_file_version'];
 $_Application_Module_Administration_Panels_LIST_APPLICATION_PANEL_ROW						= $_Application_Module_Administration_Panels_DB_Query_SELECT_APPLICATION_PANELS_Fetch_Array['application_panel_row'];
 $_Application_Module_Administration_Panels_LIST_APPLICATION_PANEL_TITLE						= $_Application_Module_Administration_Panels_DB_Query_SELECT_APPLICATION_PANELS_Fetch_Array['application_panel_title'];
 
@@ -407,6 +407,9 @@ echo ("
 															Application Panel :: File :: Version:<BR>
 																<INPUT TYPE=\"text\" NAME=\"AMA_Panels_Update_Application_Panel_File_Version\" VALUE=\"$_Application_Module_Administration_Panels_LIST_APPLICATION_PANEL_FILE_VERSION\" MAXLENGTH=\"10\"><BR><BR>
 
+															Application Panel :: File :: Timestamp :: Installation:<BR>
+																<INPUT TYPE=\"text\" NAME=\"AMA_Panels_Update_Application_Panel_File_Timestamp_Installation\" VALUE=\"$_Application_Module_Administration_Panels_LIST_APPLICATION_PANEL_FILE_TIMESTAMP_INSTALLATION\" MAXLENGTH=\"75\"><BR><BR>
+
 															Application Panel :: Permission:<BR>
 																<SELECT NAME=\"AMA_Panels_Update_Application_Panel_File_Permission\" MAXLENGTH=\"1\">
 																	<OPTION VALUE=\"0\">Public</OPTION>
@@ -457,7 +460,7 @@ echo ("
 																<INPUT TYPE=\"text\" NAME=\"AMA_Panels_Update_Application_Panel_Row\" VALUE=\"$_Application_Module_Administration_Panels_LIST_APPLICATION_PANEL_ROW\" MAXLENGTH=\"10\"><BR><BR>
 
 															Application Panel :: File :: Status:<BR>
-																<SELECT NAME=\"AMA_Panels_Install_Application_Panel_File_Status\" MAXLENGTH=\"1\">
+																<SELECT NAME=\"AMA_Panels_Update_Application_Panel_File_Status\" MAXLENGTH=\"1\">
 																	<OPTION VALUE=\"0\">OFF</OPTION>
 																	<OPTION VALUE=\"1\">ON</OPTION>
 																</SELECT><BR><BR>

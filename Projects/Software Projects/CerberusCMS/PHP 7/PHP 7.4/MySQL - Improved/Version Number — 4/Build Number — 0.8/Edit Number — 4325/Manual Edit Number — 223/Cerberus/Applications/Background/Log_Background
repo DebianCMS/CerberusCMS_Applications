@@ -75,8 +75,8 @@
  ============================================================================================================
 */
 
-$_Application_Module_Background_Log_Background_DB_Query_SELECT_STATISTICS 						= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("SELECT * FROM {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_statistics");
-$_Application_Module_Background_Log_Background_DB_Query_SELECT_STATISTICS_Fetch_Array 					= $_Application_Module_Background_Log_Background_DB_Query_SELECT_STATISTICS->fetch_array();
+$_Application_Module_Background_Log_Background_DB_Query_SELECT_STATISTICS 							= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("SELECT * FROM {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_statistics");
+$_Application_Module_Background_Log_Background_DB_Query_SELECT_STATISTICS_Fetch_Array 						= $_Application_Module_Background_Log_Background_DB_Query_SELECT_STATISTICS->fetch_array();
 
 /*
  ============================================================================================================
@@ -182,13 +182,14 @@ if ($_GLOBAL_COOKIE_MEMBER_USERNAME && $_GLOBAL_COOKIE_MEMBER_PASSWORD != null) 
  ============================================================================================================
 */
 
-$_Application_Module_Background_Log_Background_MEMBER_ACCOUNT_LAST_ACTIVE_DATE_TIMESTAMP				= date("l, F j, Y g:i:s A");
-$_Application_Module_Background_Log_Background_MEMBER_ACCOUNT_LAST_ACTIVE_DATE_YEAR					= date("Y");
-$_Application_Module_Background_Log_Background_MEMBER_ACCOUNT_LAST_ACTIVE_DATE_MONTH					= date("m");
-$_Application_Module_Background_Log_Background_MEMBER_ACCOUNT_LAST_ACTIVE_DATE_MONTH_DAY				= date("d");
-$_Application_Module_Background_Log_Background_MEMBER_ACCOUNT_LAST_ACTIVE_TIME_HOURS					= date("g");
-$_Application_Module_Background_Log_Background_MEMBER_ACCOUNT_LAST_ACTIVE_TIME_MINUTES					= date("i");
-$_Application_Module_Background_Log_Background_MEMBER_ACCOUNT_LAST_ACTIVE_TIME_SECONDS					= date("s");
+$_Application_Module_Background_Log_Background_MEMBER_ACCOUNT_LAST_ACTIVE_DATE_TIMESTAMP					= date("l, F j, Y g:i:s A");
+$_Application_Module_Background_Log_Background_MEMBER_ACCOUNT_LAST_ACTIVE_DATE_TIMESTAMP_UNIX					= time();
+$_Application_Module_Background_Log_Background_MEMBER_ACCOUNT_LAST_ACTIVE_DATE_YEAR						= date("Y");
+$_Application_Module_Background_Log_Background_MEMBER_ACCOUNT_LAST_ACTIVE_DATE_MONTH						= date("m");
+$_Application_Module_Background_Log_Background_MEMBER_ACCOUNT_LAST_ACTIVE_DATE_MONTH_DAY					= date("d");
+$_Application_Module_Background_Log_Background_MEMBER_ACCOUNT_LAST_ACTIVE_TIME_HOURS						= date("g");
+$_Application_Module_Background_Log_Background_MEMBER_ACCOUNT_LAST_ACTIVE_TIME_MINUTES						= date("i");
+$_Application_Module_Background_Log_Background_MEMBER_ACCOUNT_LAST_ACTIVE_TIME_SECONDS						= date("s");
 
 /*
  ============================================================================================================
@@ -198,6 +199,7 @@ $_Application_Module_Background_Log_Background_MEMBER_ACCOUNT_LAST_ACTIVE_TIME_S
 
 $_Application_Module_Background_Log_Background_DB_Query_UPDATE_MEMBER_ACCOUNT_STATUS_LAST_ACTIVE							= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("UPDATE {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_members SET 
 member_status_account_last_active_timestamp='$_Application_Module_Background_Log_Background_MEMBER_ACCOUNT_LAST_ACTIVE_DATE_TIMESTAMP',
+member_status_account_last_active_timestamp_unix='$_Application_Module_Background_Log_Background_MEMBER_ACCOUNT_LAST_ACTIVE_DATE_TIMESTAMP_UNIX',
 member_status_account_last_active_years='$_Application_Module_Background_Log_Background_MEMBER_ACCOUNT_LAST_ACTIVE_DATE_YEAR',
 member_status_account_last_active_months='$_Application_Module_Background_Log_Background_MEMBER_ACCOUNT_LAST_ACTIVE_DATE_MONTH',
 member_status_account_last_active_days='$_Application_Module_Background_Log_Background_MEMBER_ACCOUNT_LAST_ACTIVE_DATE_MONTH_DAY',
