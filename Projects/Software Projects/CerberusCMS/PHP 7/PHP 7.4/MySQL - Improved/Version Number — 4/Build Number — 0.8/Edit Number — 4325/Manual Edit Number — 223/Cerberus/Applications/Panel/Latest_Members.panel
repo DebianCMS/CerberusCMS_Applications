@@ -55,6 +55,16 @@
  ============================================================================================================
 */
 
+/*
+ ============================================================================================================
+ +
+ +
+ + [ @ ] Display :: Panel :: Latest Members
+ +
+ +
+ ============================================================================================================
+*/
+
 $_Application_Module_Panel_Latest_Members_DB_Query_SELECT_MEMBERS			= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("SELECT * FROM {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_members ORDER BY id DESC LIMIT 10");
 $_Application_Module_Panel_Latest_Members_DB_Query_SELECT_MEMBERS_NUMBER_OF_ROWS	= $_Application_Module_Panel_Latest_Members_DB_Query_SELECT_MEMBERS->num_rows;
 

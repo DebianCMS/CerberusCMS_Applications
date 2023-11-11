@@ -17,7 +17,7 @@
  +  ------------------------------
  +  Panel Application Module
  + ----------------------------------------------------------------------------------------------------------
- + - This File, Location	 : Root Directory => Applications => Panel => Latest_Articles.panel
+ + - This File, Location	 : Root Directory => Applications => Panel => Clock.panel
  + - This File, Version		 : 0.7.1
  + - This File, Programming Code : Pure Pre-Hyper-Text-Post-Processor
  + - Programming Code Model	 : Procedural, Functional, Object Oriented :: Pre-Order Algebraic
@@ -48,7 +48,7 @@
  +
  +
  +
- + [ ^ ] Application Module :: Panel :: Latest Article Entries
+ + [ ^ ] Application Module :: Panel :: Clock
  +
  +
  +
@@ -59,39 +59,24 @@
  ============================================================================================================
  +
  +
- + [ @ ] Display :: Panel :: Latest Articles
+ + [ @ ] Display :: Panel :: Clock
  +
  +
  ============================================================================================================
 */
 
-$_Application_Module_Panel_Articles_DB_Query_SELECT_ARTICLES			= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("SELECT * FROM {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_articles ORDER BY id DESC LIMIT 10");
-$_Application_Module_Panel_Articles_DB_Query_SELECT_ARTICLES_NUMBER_OF_ROWS	= $_Application_Module_Panel_Articles_DB_Query_SELECT_ARTICLES->num_rows;
+echo ("
+<B>Time :: Server :: This Server</B><BR>
+* $_GLOBAL_LOCAL_SERVER_DATE_STANDARD<BR><BR>
 
-if ($_Application_Module_Panel_Articles_DB_Query_SELECT_ARTICLES_NUMBER_OF_ROWS <= 0) {
+<B>Time :: Server :: Your Device</B><BR>
+* Unix-Epoch: <A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_TIMESTAMP_UNIX_EPOCH\" TITLE=\":: Open & Display :: The :: Unix-Epoch Time Reader ::\" TARGET=\"_NEW\">$_GLOBAL_LOCAL_SERVER_TIME_UNIX</A><BR><BR>
 
-										echo ("No Article Entries Exist");
-
-} else {
-
-while ($_Application_Module_Panel_Articles_DB_Query_SELECT_ARTICLES_Fetch_Array = $_Application_Module_Panel_Articles_DB_Query_SELECT_ARTICLES->fetch_array(MYSQLI_BOTH)) {
-
-$_Application_Module_Panel_Articles_LIST_ARTICLE_ID				= $_Application_Module_Panel_Articles_DB_Query_SELECT_ARTICLES_Fetch_Array['id'];
-$_Application_Module_Panel_Articles_LIST_ARTICLE_AUTHOR				= $_Application_Module_Panel_Articles_DB_Query_SELECT_ARTICLES_Fetch_Array['article_author'];
-$_Application_Module_Panel_Articles_LIST_ARTICLE_TIME				= $_Application_Module_Panel_Articles_DB_Query_SELECT_ARTICLES_Fetch_Array['article_time'];
-$_Application_Module_Panel_Articles_LIST_ARTICLE_TITLE				= $_Application_Module_Panel_Articles_DB_Query_SELECT_ARTICLES_Fetch_Array['article_title'];
-
-										echo ("<BIG><B>&middot;</B></BIG>&nbsp;<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Articles&amp;DisplayID&#61;$_Application_Module_Panel_Articles_LIST_ARTICLE_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display The Article Entry :: $_Application_Module_Panel_Articles_LIST_ARTICLE_TITLE ::\">$_Application_Module_Panel_Articles_LIST_ARTICLE_TITLE</A><BR>");
-
-} // [ + ] WHILE: Retrieving Article Entries From Database Server
-
-} // [ + ] IF: Article Entry Database Number of Rows IS Less Than Or Equal To Zero
-
-/*
- ============================================================================================================
- + Kill Database Server Query: Select Latest Articles
- ============================================================================================================
-*/
-
-$_Application_Module_Panel_Articles_DB_Query_SELECT_ARTICLES->free_result();
+<B>G.P.S. :: Server :: Your Device</B><BR>
+* Latitude: <A ID=\"getLocationOutputLatitude\" TITLE=\":: Global-Positioning-System :: Coordinates :: Latitude ::\"></A><BR>
+* Longitude: <A ID=\"getLocationOutputLongitude\" TITLE=\":: Global-Positioning-System :: Coordinates ::: Longitude ::\"></A><BR>
+* Altitude Above Sea-Level: <A ID=\"getLocationOutputAltitude\" TITLE=\":: Global-Positioning-System :: Coordinates :: Altitude ::\"></A><BR>
+* Maps Interface: <SPAN ID=\"OutputLocation\"></SPAN>
+<HR>
+");
 ?>

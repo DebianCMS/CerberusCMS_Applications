@@ -55,6 +55,16 @@
  ============================================================================================================
 */
 
+/*
+ ============================================================================================================
+ +
+ +
+ + [ @ ] Display :: Panel :: Applications
+ +
+ +
+ ============================================================================================================
+*/
+
 $_Application_Module_Panel_Application_Links_DB_Query_SELECT_APPLICATION_LINKS		= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("SELECT * FROM {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_application_links ORDER BY application_link_row ASC");
 
 while ($_Application_Module_Panel_Application_Links_DB_Query_SELECT_APPLICATION_LINKS_Fetch_Array = $_Application_Module_Panel_Application_Links_DB_Query_SELECT_APPLICATION_LINKS->fetch_array(MYSQLI_BOTH)) {

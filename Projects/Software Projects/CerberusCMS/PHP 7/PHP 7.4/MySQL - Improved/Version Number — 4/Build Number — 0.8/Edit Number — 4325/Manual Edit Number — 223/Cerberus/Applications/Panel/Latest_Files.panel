@@ -55,6 +55,16 @@
  ============================================================================================================
 */
 
+/*
+ ============================================================================================================
+ +
+ +
+ + [ @ ] Display :: Panel :: Latest File Entries
+ +
+ +
+ ============================================================================================================
+*/
+
 $_Application_Module_Panel_Files_DB_Query_SELECT_FILES			= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("SELECT * FROM {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_files ORDER BY id DESC LIMIT 10");
 $_Application_Module_Panel_Files_DB_Query_SELECT_FILES_NUMBER_OF_ROWS	= $_Application_Module_Panel_Files_DB_Query_SELECT_FILES->num_rows;
 
