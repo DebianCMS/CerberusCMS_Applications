@@ -109,6 +109,10 @@ $_Application_Module_Administration_Settings_LIST_SETTING_SYSTEM_PLUGIN_DIRECTOR
 $_Application_Module_Administration_Settings_LIST_SETTING_SYSTEM_PLUGIN_STATUS_SAFEHTML				= $_Application_Module_Administration_Settings_DB_Query_SELECT_SETTINGS_Fetch_Array['settings_system_plugin_status_safeHTML'];
 $_Application_Module_Administration_Settings_LIST_SETTING_SYSTEM_SECURITY_MODULE_DIRECTORY_SANITIZATION		= $_Application_Module_Administration_Settings_DB_Query_SELECT_SETTINGS_Fetch_Array['settings_system_security_module_directory_sanitization'];
 $_Application_Module_Administration_Settings_LIST_SETTING_SYSTEM_SECURITY_MODULE_STATUS_SANITIZATION		= $_Application_Module_Administration_Settings_DB_Query_SELECT_SETTINGS_Fetch_Array['settings_system_security_module_status_sanitization'];
+$_Application_Module_Administration_Settings_LIST_SETTING_SYSTEM_SERVICES_MODULE_STATUS_COMMANDER		= $_Application_Module_Administration_Settings_DB_Query_SELECT_SETTINGS_Fetch_Array['settings_system_services_module_status_commander'];
+$_Application_Module_Administration_Settings_LIST_SETTING_SYSTEM_SERVICES_MODULE_STATUS_INTEGRITY		= $_Application_Module_Administration_Settings_DB_Query_SELECT_SETTINGS_Fetch_Array['settings_system_services_module_status_integrity'];
+$_Application_Module_Administration_Settings_LIST_SETTING_SYSTEM_SERVICES_MODULE_STATUS_LOOPS			= $_Application_Module_Administration_Settings_DB_Query_SELECT_SETTINGS_Fetch_Array['settings_system_services_module_status_loops'];
+$_Application_Module_Administration_Settings_LIST_SETTING_SYSTEM_SERVICES_MODULE_STATUS_SERVICES		= $_Application_Module_Administration_Settings_DB_Query_SELECT_SETTINGS_Fetch_Array['settings_system_services_module_status_services'];
 $_Application_Module_Administration_Settings_LIST_SETTING_SYSTEM_SECURITY_STATUS_ACCOUNT_RESTRICT_IP		= $_Application_Module_Administration_Settings_DB_Query_SELECT_SETTINGS_Fetch_Array['settings_system_security_account_restrict_ip'];
 $_Application_Module_Administration_Settings_LIST_SETTING_SYSTEM_SECURITY_STATUS_ACCOUNT_RESTRICT_WEB_BROWSER	= $_Application_Module_Administration_Settings_DB_Query_SELECT_SETTINGS_Fetch_Array['settings_system_security_account_restrict_web_browser'];
 $_Application_Module_Administration_Settings_LIST_SETTING_SYSTEM_SECURITY_STATUS_ACCOUNT_RESTRICT_MAC_ADDRESS	= $_Application_Module_Administration_Settings_DB_Query_SELECT_SETTINGS_Fetch_Array['settings_system_security_account_restrict_mac_address'];
@@ -161,6 +165,10 @@ $_Application_Module_Administration_Settings_POST_UPDATE_DIRECTORY_SAFEHTML					
 $_Application_Module_Administration_Settings_POST_UPDATE_STATUS_SAFEHTML					= $_POST['AMA_Settings_Update_Status_SafeHTML'];
 $_Application_Module_Administration_Settings_POST_UPDATE_DIRECTORY_SECURITY_MODULE_SANITIZATION			= $_POST['AMA_Settings_Update_Directory_Security_Module_Sanitization'];
 $_Application_Module_Administration_Settings_POST_UPDATE_STATUS_SECURITY_MODULE_SANITIZATION			= $_POST['AMA_Settings_Update_Status_Security_Module_Sanitization'];
+$_Application_Module_Administration_Settings_POST_UPDATE_STATUS_SERVICES_MODULE_COMMANDER			= $_POST['AMA_Settings_Update_Status_Services_Module_Commander'];
+$_Application_Module_Administration_Settings_POST_UPDATE_STATUS_SERVICES_MODULE_INTEGRITY			= $_POST['AMA_Settings_Update_Status_Services_Module_Integrity'];
+$_Application_Module_Administration_Settings_POST_UPDATE_STATUS_SERVICES_MODULE_LOOPS				= $_POST['AMA_Settings_Update_Status_Services_Module_Loops'];
+$_Application_Module_Administration_Settings_POST_UPDATE_STATUS_SERVICES_MODULE_SERVICES			= $_POST['AMA_Settings_Update_Status_Services_Module_Services'];
 
 $_Application_Module_Administration_Settings_POST_UPDATE_STATUS_ACCOUNT_RESTRICTED_INTERNET_PROTOCOL_ADDRESS	= $_POST['AMA_Settings_Update_Status_Account_Restricted_IP'];
 $_Application_Module_Administration_Settings_POST_UPDATE_STATUS_ACCOUNT_RESTRICTED_WEB_BROWSER			= $_POST['AMA_Settings_Update_Status_Account_Restricted_Web_Browser'];
@@ -255,13 +263,43 @@ echo ("
 															Plug-In :: Directory :: Animojis / Smileys<BR>
 																<INPUT TYPE=\"text\" NAME=\"AMA_Settings_Update_Directory_Smileys\" VALUE=\"$_Application_Module_Administration_Settings_LIST_SETTING_SYSTEM_PLUGIN_DIRECTORY_SMILEYS\" MAXLENGTH=\"50\"><BR><BR>
 
-														<HR>System :: Security :: Modules<HR>
+														<HR>System :: Security :: Settings :: Modules<HR>
 															Security :: Module :: Directory :: Master Sanitization<BR>
 																<INPUT TYPE=\"text\" NAME=\"AMA_Settings_Update_Directory_Security_Module_Sanitization\" VALUE=\"$_Application_Module_Administration_Settings_LIST_SETTING_SYSTEM_SECURITY_MODULE_DIRECTORY_SANITIZATION\" MAXLENGTH=\"10\"><BR><BR>
 
 															Security :: Module :: Status :: Master Sanitization<BR>
 															[ Current: $_Application_Module_Administration_Settings_LIST_SETTING_SYSTEM_SECURITY_MODULE_STATUS_SANITIZATION ]<BR>
 																<SELECT NAME=\"AMA_Settings_Update_Status_Security_Module_Sanitization\">
+																	<OPTION VALUE=\"1\">1: On</OPTION>
+																	<OPTION VALUE=\"0\">0: Off</OPTION>
+																</SELECT><BR><BR>
+
+														<HR>System :: Services :: Settings :: Modules<HR>
+
+															Services :: Module :: Status :: Commander<BR>
+															[ Current: $_Application_Module_Administration_Settings_LIST_SETTING_SYSTEM_SERVICES_MODULE_STATUS_COMMANDER ]<BR>
+																<SELECT NAME=\"AMA_Settings_Update_Status_Services_Module_Commander\">
+																	<OPTION VALUE=\"1\">1: On</OPTION>
+																	<OPTION VALUE=\"0\">0: Off</OPTION>
+																</SELECT><BR><BR>
+
+															Services :: Module :: Status :: Integrity<BR>
+															[ Current: $_Application_Module_Administration_Settings_LIST_SETTING_SYSTEM_SERVICES_MODULE_STATUS_INTEGRITY ]<BR>
+																<SELECT NAME=\"AMA_Settings_Update_Status_Services_Module_Integrity\">
+																	<OPTION VALUE=\"1\">1: On</OPTION>
+																	<OPTION VALUE=\"0\">0: Off</OPTION>
+																</SELECT><BR><BR>
+
+															Services :: Module :: Status :: Loops<BR>
+															[ Current: $_Application_Module_Administration_Settings_LIST_SETTING_SYSTEM_SERVICES_MODULE_STATUS_LOOPS ]<BR>
+																<SELECT NAME=\"AMA_Settings_Update_Status_Services_Module_Loops\">
+																	<OPTION VALUE=\"1\">1: On</OPTION>
+																	<OPTION VALUE=\"0\">0: Off</OPTION>
+																</SELECT><BR><BR>
+
+															Services :: Module :: Status :: Services<BR>
+															[ Current: $_Application_Module_Administration_Settings_LIST_SETTING_SYSTEM_SERVICES_MODULE_STATUS_SERVICES ]<BR>
+																<SELECT NAME=\"AMA_Settings_Update_Status_Services_Module_Services\">
 																	<OPTION VALUE=\"1\">1: On</OPTION>
 																	<OPTION VALUE=\"0\">0: Off</OPTION>
 																</SELECT><BR><BR>
