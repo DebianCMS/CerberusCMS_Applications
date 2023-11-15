@@ -120,13 +120,13 @@ $_Application_Module_Member_Statistics_LIST_INSTALLATION_DATE						= $_Applicati
  ============================================================================================================
 */
 
-if ($_GLOBAL_SYSTEM_STATUS_GZIP <= 0) {
+if ($_GLOBAL_SYSTEM_STATUS_GZIP == "1") {
 
-	$_Application_Module_Member_Statistics_Status_GZIP					= "Off";
+	$_Application_Module_Member_Statistics_Status_GZIP					= "On";
 
 } else { // [ + ] IF: G.N.U. ZIP Compression System Setting Is: Off
 
-	$_Application_Module_Member_Statistics_Status_GZIP					= "On";
+	$_Application_Module_Member_Statistics_Status_GZIP					= "Off";
 
 } // [ + ] IF: G.N.U. ZIP Compression System Setting Is: On
 
@@ -136,13 +136,13 @@ if ($_GLOBAL_SYSTEM_STATUS_GZIP <= 0) {
  ============================================================================================================
 */
 
-if ($_GLOBAL_SYSTEM_PLUGIN_STATUS_CAMERA <= 0) {
+if ($_GLOBAL_SYSTEM_PLUGIN_STATUS_CAMERA == "1") {
 
-	$_Application_Module_Member_Statistics_PlugIn_Status_Camera				= "Off";
+	$_Application_Module_Member_Statistics_PlugIn_Status_Camera				= "On";
 
 } else { // [ + ] IF: The Camera Plug-In System Setting Is: Off
 
-	$_Application_Module_Member_Statistics_PlugIn_Status_SafeHTML				= "On";
+	$_Application_Module_Member_Statistics_PlugIn_Status_Camera				= "Off";
 
 } // [ + ] IF: The System :: Plug-In :: Status :: Camera :: Is: On OR Off
 
@@ -152,13 +152,13 @@ if ($_GLOBAL_SYSTEM_PLUGIN_STATUS_CAMERA <= 0) {
  ============================================================================================================
 */
 
-if ($_GLOBAL_SYSTEM_PLUGIN_STATUS_LOCATION <= 0) {
+if ($_GLOBAL_SYSTEM_PLUGIN_STATUS_LOCATION == "1") {
 
-	$_Application_Module_Member_Statistics_PlugIn_Status_Location				= "Off";
+	$_Application_Module_Member_Statistics_PlugIn_Status_Location				= "On";
 
 } else { // [ + ] IF: The Location Plug-In System Setting Is: Off
 
-	$_Application_Module_Member_Statistics_PlugIn_Status_Location				= "On";
+	$_Application_Module_Member_Statistics_PlugIn_Status_Location				= "Off";
 
 } // [ + ] IF: The System :: Plug-In :: Status :: Location :: Is: On OR Off
 
@@ -168,13 +168,13 @@ if ($_GLOBAL_SYSTEM_PLUGIN_STATUS_LOCATION <= 0) {
  ============================================================================================================
 */
 
-if ($_GLOBAL_SYSTEM_PLUGIN_STATUS_MICROPHONE <= 0) {
+if ($_GLOBAL_SYSTEM_PLUGIN_STATUS_MICROPHONE == "1") {
 
-	$_Application_Module_Member_Statistics_PlugIn_Status_Microphone				= "Off";
+	$_Application_Module_Member_Statistics_PlugIn_Status_Microphone				= "On";
 
 } else { // [ + ] IF: The Microphone Plug-In System Setting Is: Off
 
-	$_Application_Module_Member_Statistics_PlugIn_Status_Microphone				= "On";
+	$_Application_Module_Member_Statistics_PlugIn_Status_Microphone				= "Off";
 
 } // [ + ] IF: The System :: Plug-In :: Status :: Microphone :: Is: On OR Off
 
@@ -184,13 +184,13 @@ if ($_GLOBAL_SYSTEM_PLUGIN_STATUS_MICROPHONE <= 0) {
  ============================================================================================================
 */
 
-if ($_GLOBAL_SYSTEM_PLUGIN_STATUS_NOTIFICATIONS <= 0) {
+if ($_GLOBAL_SYSTEM_PLUGIN_STATUS_NOTIFICATIONS == "1") {
 
-	$_Application_Module_Member_Statistics_PlugIn_Status_Notifications			= "Off";
+	$_Application_Module_Member_Statistics_PlugIn_Status_Notifications			= "On";
 
 } else { // [ + ] IF: The Notifications Plug-In System Setting Is: Off
 
-	$_Application_Module_Member_Statistics_PlugIn_Status_Notifications			= "On";
+	$_Application_Module_Member_Statistics_PlugIn_Status_Notifications			= "Off";
 
 } // [ + ] IF: The System :: Plug-In :: Status :: Notifications :: Is: On OR Off
 
@@ -200,13 +200,13 @@ if ($_GLOBAL_SYSTEM_PLUGIN_STATUS_NOTIFICATIONS <= 0) {
  ============================================================================================================
 */
 
-if ($_GLOBAL_SYSTEM_PLUGIN_STATUS_SAFEHTML <= 0) {
+if ($_GLOBAL_SYSTEM_PLUGIN_STATUS_SAFEHTML == "1") {
 
-	$_Application_Module_Member_Statistics_PlugIn_Status_SafeHTML				= "Off";
+	$_Application_Module_Member_Statistics_PlugIn_Status_SafeHTML				= "On";
 
 } else { // [ + ] IF: The Safe-HTML Plug-In System Setting Is: Off
 
-	$_Application_Module_Member_Statistics_PlugIn_Status_SafeHTML				= "On";
+	$_Application_Module_Member_Statistics_PlugIn_Status_SafeHTML				= "Off";
 
 } // [ + ] IF: The System :: Plug-In :: Status :: Safe-HTML :: Is: On OR Off
 
@@ -216,13 +216,13 @@ if ($_GLOBAL_SYSTEM_PLUGIN_STATUS_SAFEHTML <= 0) {
  ============================================================================================================
 */
 
-if ($_GLOBAL_SYSTEM_PLUGIN_STATUS_SECURE_DELETE <= 0) {
+if ($_GLOBAL_SYSTEM_PLUGIN_STATUS_SECURE_DELETE == "1") {
 
-	$_Application_Module_Member_Statistics_PlugIn_Status_Secure_Delete			= "Off";
+	$_Application_Module_Member_Statistics_PlugIn_Status_Secure_Delete			= "On";
 
 } else { // [ + ] IF: The Secure-Delete Plug-In System Setting Is: Off
 
-	$_Application_Module_Member_Statistics_PlugIn_Status_Secure_Delete			= "On";
+	$_Application_Module_Member_Statistics_PlugIn_Status_Secure_Delete			= "Off";
 
 } // [ + ] IF: The System :: Plug-In :: Status :: Secure-Delete :: Is: On OR Off
 
@@ -232,13 +232,13 @@ if ($_GLOBAL_SYSTEM_PLUGIN_STATUS_SECURE_DELETE <= 0) {
  ============================================================================================================
 */
 
-if ($_GLOBAL_SYSTEM_PLUGIN_STATUS_TEXT_EDITOR <= 0) {
+if ($_GLOBAL_SYSTEM_PLUGIN_STATUS_TEXT_EDITOR == "1") {
 
-	$_Application_Module_Member_Statistics_PlugIn_Status_Text_Editor			= "Off";
+	$_Application_Module_Member_Statistics_PlugIn_Status_Text_Editor			= "On";
 
 } else { // [ + ] IF: The Text-Editor Plug-In System Setting Is: Off
 
-	$_Application_Module_Member_Statistics_PlugIn_Status_Text_Editor			= "On";
+	$_Application_Module_Member_Statistics_PlugIn_Status_Text_Editor			= "Off";
 
 } // [ + ] IF: The System :: Plug-In :: Status :: Text-Editor :: Is: On OR Off
 
@@ -248,15 +248,111 @@ if ($_GLOBAL_SYSTEM_PLUGIN_STATUS_TEXT_EDITOR <= 0) {
  ============================================================================================================
 */
 
-if ($_GLOBAL_SETTING_SYSTEM_SECURITY_MODULE_STATUS_MASTER_SANITIZATION <= 0) {
-
-	$_Application_Module_Member_Statistics_PlugIn_Status_Text_Editor			= "Off";
-
-} else { // [ + ] IF: The Text-Editor Plug-In System Setting Is: Off
+if ($_GLOBAL_SETTING_SYSTEM_SECURITY_MODULE_STATUS_MASTER_SANITIZATION == "1") {
 
 	$_Application_Module_Member_Statistics_PlugIn_Status_Text_Editor			= "On";
 
+} else { // [ + ] IF: The Text-Editor Plug-In System Setting Is: Off
+
+	$_Application_Module_Member_Statistics_PlugIn_Status_Text_Editor			= "Off";
+
 } // [ + ] IF: The System :: Security :: Module :: Status :: Master Sanitization :: Is: On OR Off
+
+/*
+ ============================================================================================================
+ + IF: System :: Services :: Status :: Commander :: Is: 0, Define AS OFF :: ELSE :: Is: 1, Define AS ON
+ ============================================================================================================
+*/
+
+if ($_GLOBAL_SYSTEM_SERVICES_MODULE_FILE_COMMANDER != "1") {
+
+	$_Application_Module_Member_Statistics_System_Services_Status_Commander			= "Off";
+
+} else { // [ + ] IF: The System :: Services :: Status :: Commander :: Is: On OR Off
+
+	$_Application_Module_Member_Statistics_System_Services_Status_Commander			= "On";
+
+} // [ + ] IF: The System :: Services :: Status :: Commander :: Is: On OR Off
+
+/*
+ ============================================================================================================
+ + IF: System :: Services :: Status :: Integrity :: Is: 0, Define AS OFF :: ELSE :: Is: 1, Define AS ON
+ ============================================================================================================
+*/
+
+if ($_GLOBAL_SYSTEM_SERVICES_MODULE_FILE_INTEGRITY != "1") {
+
+	$_Application_Module_Member_Statistics_System_Services_Status_Integrity			= "Off";
+
+} else { // [ + ] IF: The System :: Services :: Status :: Integrity :: Is: On OR Off
+
+	$_Application_Module_Member_Statistics_System_Services_Status_Integrity			= "On";
+
+} // [ + ] IF: The System :: Services :: Status :: Integrity :: Is: On OR Off
+
+/*
+ ============================================================================================================
+ + IF: System :: Services :: Status :: Loops :: Is: 0, Define AS OFF :: ELSE :: Is: 1, Define AS ON
+ ============================================================================================================
+*/
+
+if ($_GLOBAL_SYSTEM_SERVICES_MODULE_FILE_LOOPS != "1") {
+
+	$_Application_Module_Member_Statistics_System_Services_Status_Loops			= "Off";
+
+} else { // [ + ] IF: The System :: Services :: Status :: Loops :: Is: On OR Off
+
+	$_Application_Module_Member_Statistics_System_Services_Status_Loops			= "On";
+
+} // [ + ] IF: The System :: Services :: Status :: Loops :: Is: On OR Off
+
+/*
+ ============================================================================================================
+ + IF: System :: Services :: Status :: Services :: Is: 0, Define AS OFF :: ELSE :: Is: 1, Define AS ON
+ ============================================================================================================
+*/
+
+if ($_GLOBAL_SYSTEM_SERVICES_MODULE_FILE_SERVICES != "1") {
+
+	$_Application_Module_Member_Statistics_System_Services_Status_Services			= "Off";
+
+} else { // [ + ] IF: The System :: Services :: Status :: Services :: Is: On OR Off
+
+	$_Application_Module_Member_Statistics_System_Services_Status_Services			= "On";
+
+} // [ + ] IF: The System :: Services :: Status :: Services :: Is: On OR Off
+
+/*
+ ============================================================================================================
+ + IF: System :: Security :: Module :: Status :: Master Sanitization :: Is: 0, Define AS OFF :: ELSE :: Is: 1, Define AS ON
+ ============================================================================================================
+*/
+
+if ($_GLOBAL_SETTING_SYSTEM_SECURITY_MODULE_STATUS_MASTER_SANITIZATION != "1") {
+
+	$_Application_Module_Member_Statistics_System_Security_Module_Status_Master_Sanitization = "Off";
+
+} else { // [ + ] IF: The System :: Security :: Module :: Status :: Master Sanitization :: Is: On OR Off
+
+	$_Application_Module_Member_Statistics_System_Security_Module_Status_Master_Sanitization = "On";
+
+} // [ + ] IF: The System :: Security :: Module :: Status :: Master Sanitization :: Is: On OR Off
+
+/*
+ ============================================================================================================
+ + IF: System :: Security :: Module :: Status :: Cache Circumvention :: Is: 0, Define AS OFF :: ELSE :: Is: 1, Define AS ON
+ ============================================================================================================
+*/
+
+if ($_GLOBAL_SETTING_SYSTEM_SECURITY_SETTING_STATUS_CACHE_CIRCUMVENTION != "1") {
+
+	$_Application_Module_Member_Statistics_System_Security_Module_Status_Cache_Circumvention = "Off";
+
+} else { // [ + ] IF: The System :: Security :: Module :: Status :: Cache Circumvention :: Is: On OR Off
+
+	$_Application_Module_Member_Statistics_System_Security_Module_Status_Cache_Circumvention = "On";
+
+} // [ + ] IF: The System :: Security :: Module :: Status :: Cache Circumvention :: Is: On OR Off
 
 /*
  ============================================================================================================
@@ -275,7 +371,7 @@ echo ("
 											<B>Settings :: System :: Current</B><HR>
 
 											<B>Settings :: System :: Web-Page Document :: Output Data :: Compression</B><BR>
-												*&nbsp;G.N.U. ZIP ( GZIP ) Data Compression: $_Application_Module_Member_Statistics_Status_GZIP<BR><BR>
+												*&nbsp;G.N.U. ZIP ( GZIP ) Data Compression: $_GLOBAL_SYSTEM_STATUS_GZIP | $_Application_Module_Member_Statistics_Status_GZIP<BR><BR>
 
 											<B>Settings :: System :: Graphical User Interface :: Theme</B><BR>
 												*&nbsp;System :: Theme :: File Format :: Audio: $_GLOBAL_SYSTEM_SOUND_EXTENSION<BR>
@@ -292,43 +388,57 @@ echo ("
 
 											<B>Settings :: System :: Plug-Ins :: Camera</B><BR>
 												*&nbsp;Plug-In :: Camera :: Directory: $_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_CAMERA<BR>
-												*&nbsp;Plug-In :: Camera :: Status: $_Application_Module_Member_Statistics_Status_Camera<BR><BR>
+												*&nbsp;Plug-In :: Camera :: Status: $_GLOBAL_SYSTEM_PLUGIN_STATUS_CAMERA | $_Application_Module_Member_Statistics_PlugIn_Status_Camera<BR><BR>
 
 											<B>Settings :: System :: Plug-Ins :: Microphone</B><BR>
 												*&nbsp;Plug-In :: Microphone :: Directory: $_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_MICROPHONE<BR>
-												*&nbsp;Plug-In :: Microphone :: Status: $_Application_Module_Member_Statistics_Status_Microphone<BR><BR>
+												*&nbsp;Plug-In :: Microphone :: Status: $_GLOBAL_SYSTEM_PLUGIN_STATUS_MICROPHONE | $_Application_Module_Member_Statistics_PlugIn_Status_Location<BR><BR>
 
 											<B>Settings :: System :: Plug-Ins :: Location</B><BR>
 												*&nbsp;Plug-In :: Location :: Directory: $_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_LOCATION<BR>
-												*&nbsp;Plug-In :: Location :: Status: $_Application_Module_Member_Statistics_Status_Location<BR><BR>
+												*&nbsp;Plug-In :: Location :: Status: $_GLOBAL_SYSTEM_PLUGIN_STATUS_LOCATION | $_Application_Module_Member_Statistics_PlugIn_Status_Location<BR><BR>
 
 											<B>Settings :: System :: Plug-Ins :: Notifications</B><BR>
 												*&nbsp;Plug-In :: Notifications :: Directory: $_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_NOTIFICATIONS<BR>
-												*&nbsp;Plug-In :: Notifications :: Status: $_Application_Module_Member_Statistics_Status_Notifications<BR><BR>
+												*&nbsp;Plug-In :: Notifications :: Status: $_GLOBAL_SYSTEM_PLUGIN_STATUS_NOTIFICATIONS | $_Application_Module_Member_Statistics_PlugIn_Status_Notifications<BR><BR>
 
 											<B>Settings :: System :: Plug-Ins :: Data Processing
 											</B><HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 
 											<B>Settings :: System :: Plug-Ins :: Safe-HTML</B><BR>
 												*&nbsp;Plug-In :: Safe-HTML :: Directory: $_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_SAFEHTML<BR>
-												*&nbsp;Plug-In :: Safe-HTML :: Status: $_Application_Module_Member_Statistics_Status_SafeHTML<BR><BR>
+												*&nbsp;Plug-In :: Safe-HTML :: Status: $_GLOBAL_SYSTEM_PLUGIN_STATUS_SAFEHTML | $_Application_Module_Member_Statistics_PlugIn_Status_SafeHTML<BR><BR>
 
 											<B>Settings :: System :: Plug-Ins :: Text-Editor</B><BR>
 												*&nbsp;Plug-In :: Text-Editor :: Directory: $_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_TEXT_EDITOR<BR>
-												*&nbsp;Plug-In :: Text-Editor :: Status: $_Application_Module_Member_Statistics_Status_Text_Editor<BR><BR>
+												*&nbsp;Plug-In :: Text-Editor :: Status: $_GLOBAL_SYSTEM_PLUGIN_STATUS_TEXT_EDITOR | $_Application_Module_Member_Statistics_PlugIn_Status_Text_Editor<BR><BR>
 
 											<B>Settings :: System :: Plug-Ins :: Data Sanitization
 											</B><HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 
 											<B>Settings :: System :: Plug-Ins :: Secure-Delete</B><BR>
 												*&nbsp;Plug-In :: Secure-Delete :: Directory: $_GLOBAL_SYSTEM_PLUGIN_DIRECTORY_SECURE_DELETE<BR>
-												*&nbsp;Plug-In :: Secure-Delete :: Status: $_Application_Module_Member_Statistics_Status_Secure_Delete<BR><BR>
+												*&nbsp;Plug-In :: Secure-Delete :: Status: $_GLOBAL_SYSTEM_PLUGIN_STATUS_SECURE_DELETE | $_Application_Module_Member_Statistics_PlugIn_Status_Secure_Delete<BR><BR>
 
 											<B>Settings :: System :: Plug-Ins :: Terminal and Console
 											</B><HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 
 											<B>System :: Settings :: Plug-Ins :: Graphical</B><BR>
 												*&nbsp;Plug-In :: Smileys and Emojis :: Directory: $_GLOBAL_SYSTEM_SMILEYS_DIRECTORY<BR><BR>
+
+											<B>Settings :: System :: Services :: Current</B><HR><BR>
+
+											<B>System :: Settings :: Services :: Commander</B><BR>
+												*&nbsp;System :: Services :: Status: $_GLOBAL_SETTING_SYSTEM_SERVICES_MODULE_STATUS_COMMANDER | $_Application_Module_Member_Statistics_System_Services_Status_Commander<BR><BR>
+
+											<B>System :: Settings :: Services :: Integrity</B><BR>
+												*&nbsp;System :: Services :: Status: $_GLOBAL_SETTING_SYSTEM_SERVICES_MODULE_STATUS_INTEGRITY | $_Application_Module_Member_Statistics_System_Services_Status_Integrity<BR><BR>
+
+											<B>System :: Settings :: Services :: Loops</B><BR>
+												*&nbsp;System :: Services :: Status: $_GLOBAL_SETTING_SYSTEM_SERVICES_MODULE_STATUS_LOOPS | $_Application_Module_Member_Statistics_System_Services_Status_Loops<BR><BR>
+
+											<B>System :: Settings :: Services :: Services</B><BR>
+												*&nbsp;System :: Services :: Status: $_GLOBAL_SETTING_SYSTEM_SERVICES_MODULE_STATUS_SERVICES | $_Application_Module_Member_Statistics_System_Services_Status_Services<BR><BR>
 
 											<B>System Security Settings</B><HR><BR>
 
@@ -337,13 +447,13 @@ echo ("
 
 											<B>Settings :: Security :: Security Modules</B><BR>
 												*&nbsp;Security Module :: Master Sanitization Module :: Directory :: $_GLOBAL_SETTING_SYSTEM_SECURITY_MODULE_DIRECTORY_MASTER_SANITIZATION<BR>
-												*&nbsp;Security Module :: Master Sanitization Module :: Status :: $_Application_Module_Member_Statistics_Status_Master_Sanitization<BR><BR>
+												*&nbsp;Security Module :: Master Sanitization Module :: Status :: $_GLOBAL_SETTING_SYSTEM_SECURITY_MODULE_STATUS_MASTER_SANITIZATION | $_Application_Module_Member_Statistics_System_Security_Module_Status_Master_Sanitization<BR><BR>
 
 											<B>Settings :: System :: Security :: Web-Page Output :: Cache :: Cache-Circumvention
 											</B><HR ALIGN=\"LEFT\" WIDTH=\"20%\">
 
 											<B>Settings :: Security :: Cache Circumvention</B><BR>
-												*&nbsp;Security :: Setting :: Cache Circumvention :: Status :: $_GLOBAL_SETTING_SYSTEM_SECURITY_SETTING_STATUS_CACHE_CIRCUMVENTION<BR><BR>
+												*&nbsp;Security :: Setting :: Cache Circumvention :: Status :: $_GLOBAL_SETTING_SYSTEM_SECURITY_SETTING_STATUS_CACHE_CIRCUMVENTION | $_Application_Module_Member_Statistics_System_Security_Module_Status_Cache_Circumvention<BR><BR>
 
 											<B>Settings :: System :: Security :: Account Control :: Authorization
 											</B><HR ALIGN=\"LEFT\" WIDTH=\"20%\">
