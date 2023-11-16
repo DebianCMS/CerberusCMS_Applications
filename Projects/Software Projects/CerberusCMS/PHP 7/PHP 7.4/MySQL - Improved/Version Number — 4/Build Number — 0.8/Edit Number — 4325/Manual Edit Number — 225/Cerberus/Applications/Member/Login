@@ -227,6 +227,20 @@ echo ("
 /*
  ============================================================================================================
  +
+ + IF: Registered Member Account :: Status :: Account: Active
+ +
+ ============================================================================================================
+*/
+
+if ($_GET["Message"] == "AccountActive") {
+
+											echo ($_Application_Module_Member_Message_Login_ERROR_ACCOUNT_ACTIVE);
+
+} // [ + ] IF: Internal Application: Display Message: Registered Member Account :: Status: Active
+
+/*
+ ============================================================================================================
+ +
  + IF: Registered Member Account :: Credentials :: DO NOT Exist In The Database Management System Server Database
  +
  ============================================================================================================
@@ -234,9 +248,9 @@ echo ("
 
 if ($_GET["Message"] == "No_Member") {
 
-											echo ($_Application_Module_Member_Message_Login_ERROR);
+											echo ($_Application_Module_Member_Message_Login_ERROR_ACCOUNT_DOES_NOT_EXIST);
 
-} // [ + ] IF: Internal Application: Display Message: No Existing Member Account Is Activated
+} // [ + ] IF: Internal Application: Display Message: Registered Member Account :: DOES NOT Exist
 
 } // [ + ] IF: Registered Member Account :: Cookies :: Credentials :: ARE Set
 
@@ -252,7 +266,7 @@ if ($_GET["Message"] == "AccountLocked") {
 
 											echo ($_Application_Module_Member_Message_Login_ACCOUNT_LOCKED);
 
-} // [ + ] IF: Internal Application: Display Message: Registered Member Account :: Is Locked
+} // [ + ] IF: Internal Application: Display Message: Registered Member Account :: Is: Locked
 
 /*
  ============================================================================================================

@@ -3688,7 +3688,7 @@ echo ("
 													[ Maximum Length: 5,000 Alpha-Numeric Characters ]<BR>
 														<TEXTAREA ROWS=\"10%\" COLS=\"80%\" NAME=\"AMM_Profile_Streams_Stream_Data\" MAXLENGTH=\"5000\" ID=\"WYSIWYG\">Write Messages Here...</TEXTAREA><BR>
 													* <I>Upload Unique Files To This Stream</I>:<BR>
-														<INPUT TYPE=\"file\" NAME=\"AMM_Profile_Streams_Upload_File_Multiple[]\" MAXLENGTH=\"100\" MULTIPLE><BR>
+														<INPUT TYPE=\"file\" NAME=\"AMM_Profile_Streams_Upload_File_Multiple[]\" VALUE=\"./Theme/$_GLOBAL_SYSTEM_THEME_DIRECTORY/Image/Icon/No_Image.png\" MAXLENGTH=\"100\" MULTIPLE><BR>
 														<INPUT TYPE=\"submit\" VALUE=\"Create Stream\">
 													</FORM><BR><BR>
 ");
@@ -4066,6 +4066,18 @@ if ($_Application_Module_Member_Profile_STREAMS_POST_UPLOAD_FILE_EXTENSION == "w
 $_Application_Module_Member_Profile_STREAMS_MESSAGE_PREPARED_DATA = "<VIDEO ID=\"StreamVideo\" WIDTH=\"125\" HEIGHT=\"125\" CONTROLS=\"CONTROLS\" TYPE=\"VIDEO/MP4\" AUTOSTART=\"FALSE\" PRELOAD=\"NONE\"><SOURCE SRC=\"./$_Application_Module_Member_Profile_FIND_DIRECTORY_MEMBER_STREAMS_WALL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_YEAR_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_DAY_FULL/$_GLOBAL_LOCAL_SERVER_DATE_TIME_NUMERICAL_FULL/$_Application_Module_Member_Profile_STREAMS_GENERATOR_RANDOM_NUMBERS.$_Application_Module_Member_Profile_STREAMS_POST_UPLOAD_FILE_NAME?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATION\"></VIDEO>&nbsp;&nbsp;";
 
 } // [ + ] IF: Registered Member Account :: Stream :: Media :: File Extension :: Is: WEBM
+
+/*
+ ============================================================================================================
+ + IF: Application Module :: Member :: Profile :: Streams :: Variable :: Upload File :: HAS NOT Executed
+ ============================================================================================================
+*/
+
+if ($_Application_Module_Member_Profile_STREAMS_POST_UPLOAD_FILE_EXTENSION == "") {
+
+$_Application_Module_Member_Profile_STREAMS_MESSAGE_PREPARED_DATA = "<IMG SRC=\"./Theme/$_GLOBAL_SYSTEM_THEME_DIRECTORY/Image/Icon/No_Icon.$_GLOBAL_SYSTEM_IMAGE_EXTENSION\"></IMG>";
+
+} // [ + ] IF: Registered Member Account :: Stream :: Media :: Streams :: Variable :: File Upload :: HAS NOT Executed
 
 /*
  ============================================================================================================

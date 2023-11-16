@@ -391,7 +391,7 @@ echo ("
  ============================================================================================================
 */
 
-$_Application_Module_Member_Forum_DB_Query_SELECT_FORUM_TOPIC_MESSAGES				= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("SELECT * FROM {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_forum_topic_message WHERE message_forum_topic_id='$_Application_Module_Member_Forum_LIST_FORUM_TOPIC_ID' ORDER BY id ASC");
+$_Application_Module_Member_Forum_DB_Query_SELECT_FORUM_TOPIC_MESSAGES					= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("SELECT * FROM {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_forum_topic_message WHERE message_forum_topic_id='$_Application_Module_Member_Forum_LIST_FORUM_TOPIC_ID' ORDER BY id ASC");
 
 /*
  ============================================================================================================
@@ -409,13 +409,15 @@ $_Application_Module_Member_Forum_LIST_FORUM_TOPIC_MESSAGE_TIMESTAMP					= $_App
 $_Application_Module_Member_Forum_LIST_FORUM_TOPIC_MESSAGE_TIMESTAMP_LAST_UPDATE			= $_Application_Module_Member_Forum_DB_Query_SELECT_FORUM_TOPIC_MESSAGES_Fetch_Array['message_timestamp_last_update'];
 $_Application_Module_Member_Forum_LIST_FORUM_TOPIC_MESSAGE_TOPIC_ID					= $_Application_Module_Member_Forum_DB_Query_SELECT_FORUM_TOPIC_MESSAGES_Fetch_Array['message_forum_topic_id'];
 
+$_Application_Module_Member_Forum_DB_Query_SELECT_FORUM_TOPIC_MESSAGES_Number_Of_Rows			= $_Application_Module_Member_Forum_DB_Query_SELECT_FORUM_TOPIC_MESSAGES->num_rows;
+
 /*
  ============================================================================================================
  + Database Server Query :: Select :: All :: Forum :: Topic :: Message Entries WHERE Forum Topic Message IS Message Author
  ============================================================================================================
 */
 
-$_Application_Module_Member_Forum_DB_Query_SELECT_MEMBERS				= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("SELECT * FROM {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_members WHERE member_username='$_Application_Module_Member_Forum_LIST_FORUM_TOPIC_MESSAGE_AUTHOR'");
+$_Application_Module_Member_Forum_DB_Query_SELECT_MEMBERS						= $_GLOBAL_DATABASE_MANAGEMENT_SYSTEM_SERVER_DATABASE_CONNECTION->query("SELECT * FROM {$_ACCESS_DATABASE_SERVER_DATABASE_TABLE_PREFIX}_members WHERE member_username='$_Application_Module_Member_Forum_LIST_FORUM_TOPIC_MESSAGE_AUTHOR'");
 
 /*
  ============================================================================================================
@@ -473,6 +475,18 @@ $_Application_Module_Member_Forum_LIST_FORUM_TOPIC_MESSAGE_AUTHOR_LOCATION 				=
 
 if ($_GET["TopicID"] == "$_Application_Module_Member_Forum_LIST_FORUM_TOPIC_MESSAGE_TOPIC_ID") {
 
+/*
+ ============================================================================================================
+ + IF: Application :: Member :: Forum :: Forum :: Forum Topic :: Forum Topic Message Entries ARE Less Than OR Equal To: Zero
+ ============================================================================================================
+*/
+
+if ($_Application_Module_Member_Forum_DB_Query_SELECT_FORUM_TOPIC_MESSAGES_Number_Of_Rows <= 0) {
+
+echo ("<CENTER>Forum Message: No Forum Topic Message Entries Exist For This Forum Topic</CENTER>");
+
+} // [ + ] IF: Application :: Member :: Forum :: Forum :: Forum Topic :: Forum Topic Message Entries ARE Less Than OR Equal To: Zero
+
 echo ("
 														<IMG SRC=\"./Theme/$_GLOBAL_MEMBER_THEME_DIRECTORY/Image/Icon_Avatar/$_Application_Module_Member_Forum_LIST_FORUM_TOPIC_MESSAGE_AUTHOR_AVATAR?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATION\" ALT=\":: Registered Member Account :: Image :: Avatar Image :: $_Application_Module_Member_Forum_LIST_FORUM_TOPIC_MESSAGE_AUTHOR ::\" CLASS=\"AMAForumTMAuthor\"></IMG>
 														&nbsp;&nbsp;<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Forum_LIST_FORUM_TOPIC_MESSAGE_AUTHOR&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display The Member Account Profile For :: $_Application_Module_Member_Forum_LIST_FORUM_TOPIC_MESSAGE_AUTHOR\">$_Application_Module_Member_Forum_LIST_FORUM_TOPIC_MESSAGE_AUTHOR</A> Wrote:<BR><BR>
@@ -490,7 +504,7 @@ echo ("
 																* <B>Timestamp :: Last Update</B>: $_Application_Module_Member_Forum_LIST_FORUM_TOPIC_MESSAGE_TIMESTAMP_LAST_UPDATE
 															<HR>
 																=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Forum&amp;TopicID&#61;$_Application_Module_Member_Forum_LIST_FORUM_TOPIC_MESSAGE_TOPIC_ID&amp;Display&#61;ReplyForumTopicMessageEntry&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Reply :: To :: This :: Forum :: Forum Topic :: Forum Topic Message Entry ::\">Reply</A><BR>
-																=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Forum&amp;Display&#61;UpdateMessage&amp;MessageEntryID&#61;$_Application_Module_Member_Forum_LIST_FORUM_TOPIC_MESSAGE_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Update :: This :: Forum :: Forum Topic :: Forum Topic Message Entry ::\">Update</A><BR>
+																=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Forum&amp;Display&#61;UpdateMessageEntry&amp;MessageEntryID&#61;$_Application_Module_Member_Forum_LIST_FORUM_TOPIC_MESSAGE_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Update :: This :: Forum :: Forum Topic :: Forum Topic Message Entry ::\">Update</A><BR>
 																=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Forum&amp;DeleteMessageID&#61;$_Application_Module_Member_Forum_LIST_FORUM_TOPIC_MESSAGE_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Delete :: This :: Forum :: Topic :: Message Entry ::\">Delete</A><BR>
 																=> <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Forum&amp;TopicID&#61;$_Application_Module_Member_Forum_LIST_FORUM_TOPIC_MESSAGE_TOPIC_ID&amp;Display&#61;CreateForumTopicMessage&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Create :: Forum :: Forum Topic :: Forum Topic Message Entry ::\">Create New Message</A>
 															<HR>
@@ -549,7 +563,7 @@ echo ("
  =============================================================================================================
 */
 
-if ($_GET["Display"] == "UpdateMessage") {
+if ($_GET["Display"] == "UpdateMessageEntry") {
 
 /*
  =============================================================================================================
@@ -616,7 +630,7 @@ $_Application_Module_Member_Forum_POST_UPDATE_FORUM_TOPIC_MESSAGE_DATA					= str
 if (!$_Application_Module_Member_Forum_POST_UPDATE_FORUM_TOPIC_MESSAGE_DATA) {
 
 echo ("
-											<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Forum&amp;Display&#61;UpdateMessage&amp;MessageEntryID&#61;$_Application_Module_Member_Forum_UPDATE_MESSAGE_LIST_FORUM_TOPIC_MESSAGE_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"POST\">
+											<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Forum&amp;Display&#61;UpdateMessageEntry&amp;MessageEntryID&#61;$_Application_Module_Member_Forum_UPDATE_MESSAGE_LIST_FORUM_TOPIC_MESSAGE_ID&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"POST\">
 											$_GLOBAL_PLUGIN_SYSTEM_TEXTEDITOR_BUTTONS<BR>
 												Message<BR>
 													<TEXTAREA COLS=\"75\" ROWS=\"15\" MAXLENGTH=\"2000\" NAME=\"AMM_Forum_Update_Forum_Topic_Message\" ID=\"WYSIWYG\">$_Application_Module_Member_Forum_UPDATE_MESSAGE_LIST_FORUM_TOPIC_MESSAGE_DATA</TEXTAREA><BR>
@@ -1261,15 +1275,10 @@ echo ("
 												<SELECT NAME=\"AMM_Forum_Quick_Options_Jump_To\">
 													<OPTION VALUE=\"ForumID&#61;All\">:: Options ::</OPTION>
 													<OPTION VALUE=\"ForumID&#61;All\">-----------------</OPTION>
-													<OPTION VALUE=\"ForumID&#61;All\">Options :: Forum :: Forum Topic Entries ::</OPTION>
+													<OPTION VALUE=\"Display&#61;CreateForumTopic\">:: Create :: New :: Forum :: Forum Topic Entry</OPTION>
+													<OPTION VALUE=\"Display&#61;CreateForumTopicMessageEntry\">:: Create :: New :: Forum :: Forum Topic :: Message Entry</OPTION>
 													<OPTION VALUE=\"ForumID&#61;All\">-----------------</OPTION>
-													<OPTION VALUE=\"Display&#61;CreateForumTopic\">:: Create :: New :: Forum Topic Entry</OPTION>
-													<OPTION VALUE=\"ForumID&#61;All\">-----------------</OPTION>
-													<OPTION VALUE=\"ForumID&#61;All\">Options :: Forum :: Forum Topic Message Entries ::</OPTION>
-													<OPTION VALUE=\"ForumID&#61;All\">-----------------</OPTION>
-													<OPTION VALUE=\"Display&#61;CreateForumTopicMessageEntry\">:: Create :: New :: Forum Topic Message Entry</OPTION>
-													<OPTION VALUE=\"ForumID&#61;All\">-----------------</OPTION>
-													<OPTION VALUE=\"ForumID&#61;All\">:: Forum Entries ::</OPTION>
+													<OPTION VALUE=\"ForumID&#61;All\">:: Existing Forum Entries ::</OPTION>
 													<OPTION VALUE=\"ForumID&#61;All\">-----------------</OPTION>
 ");
 
@@ -1290,7 +1299,7 @@ $_Application_Module_Member_Forum_QUICK_OPTIONS_LIST_FORUM_TITLE			= $_Applicati
 
 echo ("
 													<OPTION VALUE=\"\">-----------------</OPTION>
-													<OPTION VALUE=\"\">:: Forum :: Forum Topic Entries ::</OPTION>
+													<OPTION VALUE=\"\">:: Existing :: Forum :: Forum Topic Entries ::</OPTION>
 													<OPTION VALUE=\"\">-----------------</OPTION>
 ");
 
