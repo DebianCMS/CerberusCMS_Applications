@@ -761,7 +761,7 @@ if ($_Application_Module_Member_Update_Account_POST_UPDATE_MEMBER_ACCOUNT_PROFIL
 
 if ($_Application_Module_Member_Update_Account_POST_UPDATE_MEMBER_ACCOUNT_PROFILE_PICTURE_VIDEO == "") {
 
-	$_Application_Module_Member_Update_Account_POST_UPDATE_MEMBER_ACCOUNT_PROFILE_PICTURE = "No_Image.mp4";
+	$_Application_Module_Member_Update_Account_POST_UPDATE_MEMBER_ACCOUNT_PROFILE_PICTURE_VIDEO = "No_Image.mp4";
 
 } // [ + ] IF: Registered Member Account :: Update Account :: Input Form :: Image :: Video Profile Image :: Posted Empty
 
