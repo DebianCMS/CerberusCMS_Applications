@@ -341,6 +341,7 @@ if (file_exists("./Member/Master_List/Electronic_Mail_Addresses/$_Application_Mo
 } else { // [ + ] IF: Member Account Registration Electronic Mail Address Already Exists In Member Account Master: Deny Member Account Registration
 
 											echo ("* Sending Electronic Mail Message... Wait.<BR>");
+											echo ("* Electronic Mail Address: $_Application_Module_Member_Register_POST_REGISTRAR_ELECTRONIC_MAIL_ADDRESS<BR>");
 
 /*
  ============================================================================================================
@@ -350,7 +351,7 @@ if (file_exists("./Member/Master_List/Electronic_Mail_Addresses/$_Application_Mo
  ============================================================================================================
 */
 
-if (mail("$_Application_Module_Member_Register_POST_REGISTRAR_ELECTRONIC_MAIL_ADDRESS", "Account Registration", "Thanks For Requesting Member Account Registration With :: $_GLOBAL_SYSTEM_SITE_TITLE","Account Registration","
+if (mail("$_Application_Module_Member_Register_POST_REGISTRAR_ELECTRONIC_MAIL_ADDRESS","Thanks For Requesting Member Account Registration With :: $_GLOBAL_SYSTEM_SITE_TITLE","Account Registration","
 Dear $_Application_Module_Member_Register_POST_REGISTRAR_FIRST_NAME :: $_Application_Module_Member_Register_POST_REGISTRAR_LAST_NAME
 [ $_Application_Module_Member_Register_POST_REGISTRAR_ELECTRONIC_MAIL_ADDRESS ],
 -------------------------------------------------------------------
