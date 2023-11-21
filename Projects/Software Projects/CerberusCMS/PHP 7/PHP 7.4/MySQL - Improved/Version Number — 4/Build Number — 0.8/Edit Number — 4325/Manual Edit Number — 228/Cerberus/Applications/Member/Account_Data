@@ -1417,7 +1417,6 @@ if (move_uploaded_file($_FILES['AMM_Account_Data_Upload_File_Gallery_Image_Profi
                         $_Application_Module_Member_Account_Data_UPLOAD_GALLERY_IMAGE_PROFILE_FILE_TOTAL_FILES_UPLOADED++;
 						
 copy("./Member/$_GLOBAL_COOKIE_MEMBER_USERNAME/Files/Image/Profile/Backup/$_GLOBAL_LOCAL_SERVER_DATE_TIME_NUMERICAL_FULL - $_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_PROFILE_FILE_NAME","./Member/$_GLOBAL_COOKIE_MEMBER_USERNAME/Files/Image/Profile/$_GLOBAL_LOCAL_SERVER_DATE_TIME_NUMERICAL_FULL - $_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_PROFILE_FILE_NAME");
-copy("./Member/$_GLOBAL_COOKIE_MEMBER_USERNAME/Files/Image/Profile/Backup/$_GLOBAL_LOCAL_SERVER_DATE_TIME_NUMERICAL_FULL - $_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_PROFILE_FILE_NAME","./Member/$_GLOBAL_COOKIE_MEMBER_USERNAME/Files/Image/Profile/Photo.jpg");
 
 /*
  ============================================================================================================
