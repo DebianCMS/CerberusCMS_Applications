@@ -1064,7 +1064,7 @@ $_Application_Module_Member_Update_Account_Image_OPEN_MEMBER_DIRECTORY						= op
 
 while (($_Application_Module_Member_Update_Account_Image_READ_MEMBER_DIRECTORY = readdir($_Application_Module_Member_Update_Account_Image_OPEN_MEMBER_DIRECTORY))) {
 
-if ($_Application_Module_Member_Update_Account_Image_READ_MEMBER_DIRECTORY == "." || $_Application_Module_Member_Update_Account_Image_READ_MEMBER_DIRECTORY == ".." || $_Application_Module_Member_Update_Account_Image_READ_MEMBER_DIRECTORY == "index.php") {
+if ($_Application_Module_Member_Update_Account_Image_READ_MEMBER_DIRECTORY == "." || $_Application_Module_Member_Update_Account_Image_READ_MEMBER_DIRECTORY == ".." || $_Application_Module_Member_Update_Account_Image_READ_MEMBER_DIRECTORY == "Backup" || $_Application_Module_Member_Update_Account_Image_READ_MEMBER_DIRECTORY == "index.php") {
 /**
  * Do Nothing
 **/
@@ -1160,7 +1160,7 @@ $_Application_Module_Member_Update_Account_Image_Video_OPEN_MEMBER_DIRECTORY				
 
 while (($_Application_Module_Member_Update_Account_Image_Video_READ_MEMBER_DIRECTORY = readdir($_Application_Module_Member_Update_Account_Image_Video_OPEN_MEMBER_DIRECTORY))) {
 
-if ($_Application_Module_Member_Update_Account_Image_Video_READ_MEMBER_DIRECTORY == "." || $_Application_Module_Member_Update_Account_Image_Video_READ_MEMBER_DIRECTORY == ".." || $_Application_Module_Member_Update_Account_Image_Video_READ_MEMBER_DIRECTORY == "index.php") {
+if ($_Application_Module_Member_Update_Account_Image_Video_READ_MEMBER_DIRECTORY == "." || $_Application_Module_Member_Update_Account_Image_Video_READ_MEMBER_DIRECTORY == ".." || $_Application_Module_Member_Update_Account_Image_Video_READ_MEMBER_DIRECTORY == "Backup" || $_Application_Module_Member_Update_Account_Image_Video_READ_MEMBER_DIRECTORY == "index.php") {
 /**
  * Do Nothing
 **/
