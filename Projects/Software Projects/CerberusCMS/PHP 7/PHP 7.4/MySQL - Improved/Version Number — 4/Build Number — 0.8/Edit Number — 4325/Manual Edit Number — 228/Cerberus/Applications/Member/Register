@@ -341,7 +341,7 @@ if (file_exists("./Member/Master_List/Electronic_Mail_Addresses/$_Application_Mo
 } else { // [ + ] IF: Member Account Registration Electronic Mail Address Already Exists In Member Account Master: Deny Member Account Registration
 
 											echo ("* Registration Message: Sending Electronic Mail Message... Wait.<BR>");
-											echo ("* Registration Message: Electronic Mail Address: $_Application_Module_Member_Register_POST_REGISTRAR_ELECTRONIC_MAIL_ADDRESS<BR><BR>");
+											echo ("* Registration Message: Electronic Mail Address: $_Application_Module_Member_Register_POST_REGISTRAR_ELECTRONIC_MAIL_ADDRESS<BR>");
 
 /*
  ============================================================================================================
@@ -417,9 +417,9 @@ Have a nice day,
 
 if (mail("$_Application_Module_Member_Register_POST_REGISTRAR_ELECTRONIC_MAIL_ADDRESS","$_Application_Module_Member_Register_POST_REGISTRAR_ELECTRONIC_MAIL_MESSAGE_SUBJECT","$_Application_Module_Member_Register_POST_REGISTRAR_ELECTRONIC_MAIL_MESSAGE_MESSAGE")) {
 
-echo ("* Registration Message: Electronic Mail Message Has Sent.<BR><BR>");
+echo ("* Registration Message: Electronic Mail Message Has Sent.<BR>");
 
-echo ("* Registration Message: Inserting Registrar Data Into The Database Management System Database... Wait<BR><BR>");
+echo ("* Registration Message: Inserting Registrar Data Into The Database Management System Database... Wait<BR>");
 
 /*
  ============================================================================================================
@@ -729,9 +729,9 @@ member_username
 
 if ($_Application_Module_Member_Register_DB_Query_INSERT_REGISTRAR) {
 
-echo ("* Register Message: Registrar Data Was Inserted Successfully.<BR><BR>");
+echo ("* Register Message: Registrar Data Was Inserted Successfully.<BR>");
 
-echo ("* Register Message: Creating Registrar Directory Structure... Wait.<BR><BR>");
+echo ("* Register Message: Creating Registrar Directory Structure... Wait.<BR>");
 
 /*
  ============================================================================================================
@@ -885,13 +885,13 @@ copy("./System/Default/Register/Register.html","./Member/$_Application_Module_Me
 
 copy("./System/Default/Friend/Friend.cerberus","./Member/$_Application_Module_Member_Register_POST_REGISTRAR_USERNAME/Files/Document/Electronic_Mail/$_Application_Module_Member_Register_POST_REGISTRAR_ELECTRONIC_MAIL_ADDRESS");
 
-echo ("* Register Message: Registrar Directory Structure Was Created Successfully.<BR><BR>");
+echo ("* Register Message: Registrar Directory Structure Was Created Successfully.<BR>");
 
 /*
  + Copy Registrar Electronic Mail Address To Master List
 */
 
-echo ("* Register Message: Adding Registrar Electronic Mail Address To Master List... Wait.<BR><BR>");
+echo ("* Register Message: Adding Registrar Electronic Mail Address To Master List... Wait.<BR>");
 
 copy("./System/Default/Friend/Friend.cerberus","./Member/Master_List/Electronic_Mail_Addresses/$_Application_Module_Member_Register_POST_REGISTRAR_ELECTRONIC_MAIL_ADDRESS");
 
