@@ -221,12 +221,13 @@ $_Application_Module_Member_Profile_LIST_MEMBER_RANK_LEVEL							= $_Application
  ============================================================================================================
 */
 
+$_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_DEVICE_AREA						= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_location_device_area'];
 $_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_DEVICE_GPS_X						= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_location_device_gps_x'];
 $_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_DEVICE_GPS_Y						= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_location_device_gps_y'];
-$_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_DEVICE_GLO						= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_location_device_glo'];
+$_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_DEVICE_GLO							= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_location_device_glo'];
 $_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_DEVICE_REGION						= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_location_device_region'];
 $_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_DEVICE_TIMEZONE					= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_location_device_timezone'];
-$_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_GIVEN_AREA						= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_location_given_area'];
+$_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_GIVEN_AREA							= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_location_given_area'];
 $_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_GIVEN_REGION						= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_location_given_region'];
 $_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_GIVEN_TIMEZONE						= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_location_given_timezone'];
 
@@ -236,8 +237,8 @@ $_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_GIVEN_TIMEZONE						= $
  ============================================================================================================
 */
 
-$_Application_Module_Member_Profile_LIST_MEMBER_MOOD								= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_mood'];
-$_Application_Module_Member_Profile_LIST_MEMBER_MUSIC								= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_music'];
+$_Application_Module_Member_Profile_LIST_MEMBER_MOOD										= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_mood'];
+$_Application_Module_Member_Profile_LIST_MEMBER_MUSIC										= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_music'];
 
 /*
  ============================================================================================================
@@ -245,10 +246,10 @@ $_Application_Module_Member_Profile_LIST_MEMBER_MUSIC								= $_Application_Mod
  ============================================================================================================
 */
 
-$_Application_Module_Member_Profile_LIST_MEMBER_PASSWORD							= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_password'];
-$_Application_Module_Member_Profile_LIST_MEMBER_SECURITY_PGP_KEY_PANEL_PUBLIC					= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_security_pgp_key_panel_public'];
-$_Application_Module_Member_Profile_LIST_MEMBER_SECURITY_PGP_KEY_PANEL_PRIVATE					= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_security_pgp_key_panel_private'];
-$_Application_Module_Member_Profile_LIST_MEMBER_SECURITY_CUSTOM_PASSWORD_PANEL					= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_security_custom_password_panel'];
+$_Application_Module_Member_Profile_LIST_MEMBER_PASSWORD									= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_password'];
+$_Application_Module_Member_Profile_LIST_MEMBER_SECURITY_PGP_KEY_PANEL_PUBLIC				= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_security_pgp_key_panel_public'];
+$_Application_Module_Member_Profile_LIST_MEMBER_SECURITY_PGP_KEY_PANEL_PRIVATE				= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_security_pgp_key_panel_private'];
+$_Application_Module_Member_Profile_LIST_MEMBER_SECURITY_CUSTOM_PASSWORD_PANEL				= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_security_custom_password_panel'];
 
 /*
  ============================================================================================================
@@ -256,8 +257,8 @@ $_Application_Module_Member_Profile_LIST_MEMBER_SECURITY_CUSTOM_PASSWORD_PANEL		
  ============================================================================================================
 */
 
-$_Application_Module_Member_Profile_LIST_MEMBER_PROFILE_ABOUT							= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_profile_about'];
-$_Application_Module_Member_Profile_LIST_MEMBER_PROFILE_SIGNATURE						= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_profile_signature'];
+$_Application_Module_Member_Profile_LIST_MEMBER_PROFILE_ABOUT								= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_profile_about'];
+$_Application_Module_Member_Profile_LIST_MEMBER_PROFILE_SIGNATURE							= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_profile_signature'];
 
 /*
  ============================================================================================================
@@ -265,7 +266,7 @@ $_Application_Module_Member_Profile_LIST_MEMBER_PROFILE_SIGNATURE						= $_Appli
  ============================================================================================================
 */
 
-$_Application_Module_Member_Profile_LIST_MEMBER_REGISTRATION_DATE						= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_registration_date'];
+$_Application_Module_Member_Profile_LIST_MEMBER_REGISTRATION_DATE							= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_registration_date'];
 $_Application_Module_Member_Profile_LIST_MEMBER_REGISTRATION_DETAILS						= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_registration_details'];
 
 /*
@@ -274,10 +275,10 @@ $_Application_Module_Member_Profile_LIST_MEMBER_REGISTRATION_DETAILS						= $_Ap
  ============================================================================================================
 */
 
-$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_BLOOD_TYPE					= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_physical_biometrics_blood_type'];
-$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_COLOR_EYE_1					= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_physical_biometrics_color_eye_1'];
-$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_COLOR_EYE_2					= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_physical_biometrics_color_eye_2'];
-$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_COLOR_HAIR					= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_physical_biometrics_color_hair'];
+$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_BLOOD_TYPE				= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_physical_biometrics_blood_type'];
+$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_COLOR_EYE_1				= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_physical_biometrics_color_eye_1'];
+$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_COLOR_EYE_2				= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_physical_biometrics_color_eye_2'];
+$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_COLOR_HAIR				= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_physical_biometrics_color_hair'];
 $_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_WEIGHT					= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_physical_biometrics_weight'];
 $_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_BIOMETRICS_HEIGHT					= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_physical_biometrics_height'];
 
@@ -296,10 +297,10 @@ $_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_NATIONALITY_1						= $_
 $_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_NATIONALITY_2						= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_physical_nationality_2'];
 $_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_NATIONALITY_3						= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_physical_nationality_3'];
 
-$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_RACE_1							= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_physical_race_1'];
-$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_RACE_2							= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_physical_race_2'];
-$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_RACE_3							= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_physical_race_3'];
-$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_RACE_4							= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_physical_race_4'];
+$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_RACE_1								= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_physical_race_1'];
+$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_RACE_2								= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_physical_race_2'];
+$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_RACE_3								= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_physical_race_3'];
+$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_RACE_4								= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_physical_race_4'];
 
 /*
  ============================================================================================================
@@ -307,7 +308,7 @@ $_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_RACE_4							= $_Applic
  ============================================================================================================
 */
 
-$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_DIMENSIONS						= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_physical_dimensions'];
+$_Application_Module_Member_Profile_LIST_MEMBER_PHYSICAL_DIMENSIONS							= $_Application_Module_Member_Profile_DB_Query_SELECT_ALL_MEMBER_ACCOUNT_ENTRIES_Fetch_Array['member_physical_dimensions'];
 
 /*
  ============================================================================================================
@@ -1214,22 +1215,25 @@ echo ($_Application_Module_Member_Message_Profile_SECTION_MARKED_ONLYME);
 if ($_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_SETTINGS_PRIVACY_VISIBILITY_DETAILS == "0") {
 
 echo ("
-												Location :: Given<HR WIDTH=\"25%\" ALIGN=\"LEFT\">
+												Location :: Last-Known :: Given<HR WIDTH=\"25%\" ALIGN=\"LEFT\">
 												&nbsp;*&nbsp;Location :: Current Given Area: $_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_GIVEN_AREA<BR>
 												&nbsp;*&nbsp;Location :: Current Given Region: $_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_GIVEN_REGION<BR>
 												&nbsp;*&nbsp;Location :: Current Given Timezone: <A HREF=\"./Theme/$_GLOBAL_MEMBER_THEME_DIRECTORY/Image/Extras/Maps/TimeZone/WorldMap_TimeZone.png?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_INTERNALFILE_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Map :: World Map :: TimeZone ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_GIVEN_TIMEZONE</A><BR><BR>
 
-												Location :: Device-Reported :: Area, Region and Timezone<HR WIDTH=\"25%\" ALIGN=\"LEFT\">
+												Location :: Last-Known :: Device-Reported :: Area, Region and Timezone<HR WIDTH=\"25%\" ALIGN=\"LEFT\">
 												&nbsp;*&nbsp;Location :: Last Exact Device-Reported :: Area: <A HREF=\"\" TITLE=\":: Open & Display :: The Log File For :: The Detailed Device-Reported :: Area ::\">$_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_DEVICE_AREA</A><BR>
 												&nbsp;*&nbsp;Location :: Last Exact Device-Reported :: Region: <A HREF=\"\" TITLE=\":: Open & Display :: The Log File For :: The Detailed Device-Reported :: Region ::\">$_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_DEVICE_REGION</A><BR>
 												&nbsp;*&nbsp;Location :: Last Exact Device-Reported :: Timezone: <A HREF=\"\" TITLE=\":: Open & Display :: The Log File For :: The Detailed Device-Reported :: Timezone ::\">$_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_DEVICE_TIMEZONE</A><BR><BR>
 
-												Location :: Device-Reported :: Global-Positioning-System<HR WIDTH=\"25%\" ALIGN=\"LEFT\">
+												Location :: Last-Known :: Device-Reported :: Global-Positioning-System<HR WIDTH=\"25%\" ALIGN=\"LEFT\">
 												&nbsp;*&nbsp;Location :: Last Exact Device-Reported :: Global-Positioning-System In X, Y, Z :: From H.T.M.L.: <A HREF=\"\" TITLE=\":: Open & Display :: The Log File For :: The Detailed Device-Reported :: From H.T.M.L. :: Global-Positioning-System Coordinates In: X, Y, Z ::\"></A><BR>
 												&nbsp;*&nbsp;Location :: Last Exact Device-Reported :: Global-Positioning-System In X, Y, Z :: From P.H.P.: <A HREF=\"\" TITLE=\":: Open & Display :: The Log File For :: The Detailed Device-Reported :: From P.H.P. :: Global-Positioning-System Coordinates In: X, Y, Z ::\"></A><BR><BR>
 
-												Location :: Device-Reported :: Geographical-Localization-Objects<HR WIDTH=\"25%\" ALIGN=\"LEFT\">
+												Location :: Last-Known :: Device-Reported :: Geographical-Localization-Objects<HR WIDTH=\"25%\" ALIGN=\"LEFT\">
 												&nbsp;*&nbsp;Location :: Last Exact Device-Reported :: Geographical-Localization-Objects: <A HREF=\"\" TITLE=\":: Open & Display :: The Log File For :: The Detailed Device-Reported :: Geographical-Localization-Objects ::\">$_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_DEVICE_GLO</A><BR><BR>
+
+												Location :: Last-Known :: Internet Protocol Addresses<HR WIDTH=\"25%\" ALIGN=\"LEFT\">
+												&nbsp;*&nbsp;Location :: Last Exact Device-Reported :: Internet Protocol Address :: Remote: <A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_CURRENT_INTERNET_PROTOCOL_ADDRESS\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_CURRENT_INTERNET_PROTOCOL_ADDRESS ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_CURRENT_INTERNET_PROTOCOL_ADDRESS</A><BR><BR>
 
 												<B>Member' Account Details :: Logs</B><HR WIDTH=\"25%\" ALIGN=\"LEFT\">
 												&nbsp;*&nbsp;Member' Account :: Logs :: Authentication<BR>
@@ -1238,6 +1242,9 @@ echo ("
 												&nbsp;&nbsp;&nbsp;<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;Log&amp;Type&#61;Interaction&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Interaction Log File :: For :: $_Application_Module_Member_Profile_LIST_MEMBER_USERNAME ::\">Log File :: Interaction :: For Date: $_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_YEAR_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_DAY_FULL</A><BR>
 												&nbsp;*&nbsp;Member Account' :: Logs :: Location<BR>
 												&nbsp;&nbsp;&nbsp;<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;Log&amp;Type&#61;GPS&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Global-Positioning-System Log File :: For :: $_Application_Module_Member_Profile_LIST_MEMBER_USERNAME ::\">Log File :: GPS :: For Date: $_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_YEAR_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_DAY_FULL</A><BR><BR>
+												
+												&nbsp;*&nbsp;Member Account' :: Logs :: Search<BR>
+												&nbsp;&nbsp;&nbsp;<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;Log&amp;Search&#61;Interaction&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: Search Logs :: Interaction :: For :: $_Application_Module_Member_Profile_LIST_MEMBER_USERNAME ::\">Search Logs :: Interaction</A><BR><BR>
 ");
 
 } else {
@@ -1259,22 +1266,25 @@ if ($_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_SETTINGS_PRIVACY_VIS
 if (file_exists("./Member/$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME/Files/Document/Friends/$_GLOBAL_COOKIE_MEMBER_USERNAME")) {
 
 echo ("
-												Location :: Given<HR WIDTH=\"25%\" ALIGN=\"LEFT\">
+												Location :: Last-Known :: Given<HR WIDTH=\"25%\" ALIGN=\"LEFT\">
 												&nbsp;*&nbsp;Location :: Current Given Area: $_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_GIVEN_AREA<BR>
 												&nbsp;*&nbsp;Location :: Current Given Region: $_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_GIVEN_REGION<BR>
 												&nbsp;*&nbsp;Location :: Current Given Timezone: <A HREF=\"./Theme/$_GLOBAL_MEMBER_THEME_DIRECTORY/Image/Extras/Maps/TimeZone/WorldMap_TimeZone.png?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_INTERNALFILE_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Map :: World Map :: TimeZone ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_GIVEN_TIMEZONE</A><BR><BR>
 
-												Location :: Device-Reported :: Area, Region and Timezone<HR WIDTH=\"25%\" ALIGN=\"LEFT\">
+												Location :: Last-Known :: Device-Reported :: Area, Region and Timezone<HR WIDTH=\"25%\" ALIGN=\"LEFT\">
 												&nbsp;*&nbsp;Location :: Last Exact Device-Reported :: Area: <A HREF=\"\" TITLE=\":: Open & Display :: The Log File For :: The Detailed Device-Reported :: Area ::\">$_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_DEVICE_AREA</A><BR>
 												&nbsp;*&nbsp;Location :: Last Exact Device-Reported :: Region: <A HREF=\"\" TITLE=\":: Open & Display :: The Log File For :: The Detailed Device-Reported :: Region ::\">$_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_DEVICE_REGION</A><BR>
 												&nbsp;*&nbsp;Location :: Last Exact Device-Reported :: Timezone: <A HREF=\"\" TITLE=\":: Open & Display :: The Log File For :: The Detailed Device-Reported :: Timezone ::\">$_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_DEVICE_TIMEZONE</A><BR><BR>
 
-												Location :: Device-Reported :: Global-Positioning-System<HR WIDTH=\"25%\" ALIGN=\"LEFT\">
+												Location :: Last-Known :: Device-Reported :: Global-Positioning-System<HR WIDTH=\"25%\" ALIGN=\"LEFT\">
 												&nbsp;*&nbsp;Location :: Last Exact Device-Reported :: Global-Positioning-System In X, Y, Z :: From H.T.M.L.: <A HREF=\"\" TITLE=\":: Open & Display :: The Log File For :: The Detailed Device-Reported :: From H.T.M.L. :: Global-Positioning-System Coordinates In: X, Y, Z ::\"></A><BR>
 												&nbsp;*&nbsp;Location :: Last Exact Device-Reported :: Global-Positioning-System In X, Y, Z :: From P.H.P.: <A HREF=\"\" TITLE=\":: Open & Display :: The Log File For :: The Detailed Device-Reported :: From P.H.P. :: Global-Positioning-System Coordinates In: X, Y, Z ::\"></A><BR><BR>
 
-												Location :: Device-Reported :: Geographical-Localization-Objects<HR WIDTH=\"25%\" ALIGN=\"LEFT\">
+												Location :: Last-Known :: Device-Reported :: Geographical-Localization-Objects<HR WIDTH=\"25%\" ALIGN=\"LEFT\">
 												&nbsp;*&nbsp;Location :: Last Exact Device-Reported :: Geographical-Localization-Objects: <A HREF=\"\" TITLE=\":: Open & Display :: The Log File For :: The Detailed Device-Reported :: Geographical-Localization-Objects ::\">$_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_DEVICE_GLO</A><BR><BR>
+
+												Location :: Last-Known :: Internet Protocol Addresses<HR WIDTH=\"25%\" ALIGN=\"LEFT\">
+												&nbsp;*&nbsp;Location :: Last Exact Device-Reported :: Internet Protocol Address :: Remote: <A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_CURRENT_INTERNET_PROTOCOL_ADDRESS\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_CURRENT_INTERNET_PROTOCOL_ADDRESS ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_CURRENT_INTERNET_PROTOCOL_ADDRESS</A><BR><BR>
 
 												<B>Member' Account Details :: Logs</B><HR WIDTH=\"25%\" ALIGN=\"LEFT\">
 												&nbsp;*&nbsp;Member' Account :: Logs :: Authentication<BR>
@@ -1283,6 +1293,9 @@ echo ("
 												&nbsp;&nbsp;&nbsp;<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;Log&amp;Type&#61;Interaction&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Interaction Log File :: For :: $_Application_Module_Member_Profile_LIST_MEMBER_USERNAME ::\">Log File :: Interaction :: For Date: $_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_YEAR_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_DAY_FULL</A><BR>
 												&nbsp;*&nbsp;Member Account' :: Logs :: Location<BR>
 												&nbsp;&nbsp;&nbsp;<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;Log&amp;Type&#61;GPS&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Global-Positioning-System Log File :: For :: $_Application_Module_Member_Profile_LIST_MEMBER_USERNAME ::\">Log File :: GPS :: For Date: $_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_YEAR_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_DAY_FULL</A><BR><BR>
+												
+												&nbsp;*&nbsp;Member Account' :: Logs :: Search<BR>
+												&nbsp;&nbsp;&nbsp;<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;Log&amp;Search&#61;Interaction&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: Search Logs :: Interaction :: For :: $_Application_Module_Member_Profile_LIST_MEMBER_USERNAME ::\">Search Logs :: Interaction</A><BR><BR>
 ");
 
 } else {
@@ -1316,22 +1329,25 @@ if ($_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_SETTINGS_PRIVACY_VIS
 if ($_GLOBAL_COOKIE_MEMBER_USERNAME == "$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME") {
 
 echo ("
-												Location :: Given<HR WIDTH=\"25%\" ALIGN=\"LEFT\">
+												Location :: Last-Known :: Given<HR WIDTH=\"25%\" ALIGN=\"LEFT\">
 												&nbsp;*&nbsp;Location :: Current Given Area: $_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_GIVEN_AREA<BR>
 												&nbsp;*&nbsp;Location :: Current Given Region: $_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_GIVEN_REGION<BR>
 												&nbsp;*&nbsp;Location :: Current Given Timezone: <A HREF=\"./Theme/$_GLOBAL_MEMBER_THEME_DIRECTORY/Image/Extras/Maps/TimeZone/WorldMap_TimeZone.png?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_INTERNALFILE_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Map :: World Map :: TimeZone ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_GIVEN_TIMEZONE</A><BR><BR>
 
-												Location :: Device-Reported :: Area, Region and Timezone<HR WIDTH=\"25%\" ALIGN=\"LEFT\">
+												Location :: Last-Known :: Device-Reported :: Area, Region and Timezone<HR WIDTH=\"25%\" ALIGN=\"LEFT\">
 												&nbsp;*&nbsp;Location :: Last Exact Device-Reported :: Area: <A HREF=\"\" TITLE=\":: Open & Display :: The Log File For :: The Detailed Device-Reported :: Area ::\">$_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_DEVICE_AREA</A><BR>
 												&nbsp;*&nbsp;Location :: Last Exact Device-Reported :: Region: <A HREF=\"\" TITLE=\":: Open & Display :: The Log File For :: The Detailed Device-Reported :: Region ::\">$_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_DEVICE_REGION</A><BR>
 												&nbsp;*&nbsp;Location :: Last Exact Device-Reported :: Timezone: <A HREF=\"\" TITLE=\":: Open & Display :: The Log File For :: The Detailed Device-Reported :: Timezone ::\">$_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_DEVICE_TIMEZONE</A><BR><BR>
 
-												Location :: Device-Reported :: Global-Positioning-System<HR WIDTH=\"25%\" ALIGN=\"LEFT\">
+												Location :: Last-Known :: Device-Reported :: Global-Positioning-System<HR WIDTH=\"25%\" ALIGN=\"LEFT\">
 												&nbsp;*&nbsp;Location :: Last Exact Device-Reported :: Global-Positioning-System In X, Y, Z :: From H.T.M.L.: <A HREF=\"\" TITLE=\":: Open & Display :: The Log File For :: The Detailed Device-Reported :: From H.T.M.L. :: Global-Positioning-System Coordinates In: X, Y, Z ::\"></A><BR>
 												&nbsp;*&nbsp;Location :: Last Exact Device-Reported :: Global-Positioning-System In X, Y, Z :: From P.H.P.: <A HREF=\"\" TITLE=\":: Open & Display :: The Log File For :: The Detailed Device-Reported :: From P.H.P. :: Global-Positioning-System Coordinates In: X, Y, Z ::\"></A><BR><BR>
 
-												Location :: Device-Reported :: Geographical-Localization-Objects<HR WIDTH=\"25%\" ALIGN=\"LEFT\">
+												Location :: Last-Known :: Device-Reported :: Geographical-Localization-Objects<HR WIDTH=\"25%\" ALIGN=\"LEFT\">
 												&nbsp;*&nbsp;Location :: Last Exact Device-Reported :: Geographical-Localization-Objects: <A HREF=\"\" TITLE=\":: Open & Display :: The Log File For :: The Detailed Device-Reported :: Geographical-Localization-Objects ::\">$_Application_Module_Member_Profile_LIST_MEMBER_LOCATION_DEVICE_GLO</A><BR><BR>
+
+												Location :: Last-Known :: Internet Protocol Addresses<HR WIDTH=\"25%\" ALIGN=\"LEFT\">
+												&nbsp;*&nbsp;Location :: Last Exact Device-Reported :: Internet Protocol Address :: Remote: <A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_CURRENT_INTERNET_PROTOCOL_ADDRESS\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_CURRENT_INTERNET_PROTOCOL_ADDRESS ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_CURRENT_INTERNET_PROTOCOL_ADDRESS</A><BR><BR>
 
 												<B>Member' Account Details :: Logs</B><HR WIDTH=\"25%\" ALIGN=\"LEFT\">
 												&nbsp;*&nbsp;Member' Account :: Logs :: Authentication<BR>
@@ -1340,6 +1356,9 @@ echo ("
 												&nbsp;&nbsp;&nbsp;<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;Log&amp;Type&#61;Interaction&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Interaction Log File :: For :: $_Application_Module_Member_Profile_LIST_MEMBER_USERNAME ::\">Log File :: Interaction :: For Date: $_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_YEAR_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_DAY_FULL</A><BR>
 												&nbsp;*&nbsp;Member Account' :: Logs :: Location<BR>
 												&nbsp;&nbsp;&nbsp;<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;Log&amp;Type&#61;GPS&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Global-Positioning-System Log File :: For :: $_Application_Module_Member_Profile_LIST_MEMBER_USERNAME ::\">Log File :: GPS :: For Date: $_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_YEAR_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_FULL/$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_DAY_FULL</A><BR><BR>
+
+												&nbsp;*&nbsp;Member Account' :: Logs :: Search<BR>
+												&nbsp;&nbsp;&nbsp;<A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;Log&amp;Search&#61;Interaction&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: Search Logs :: Interaction :: For :: $_Application_Module_Member_Profile_LIST_MEMBER_USERNAME ::\">Search Logs :: Interaction</A><BR><BR>
 ");
 
 } else {
@@ -1375,8 +1394,7 @@ if ($_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_SETTINGS_PRIVACY_VIS
 echo ("
 												&nbsp;*&nbsp;Account :: Internet Protocol Address :: Last Successful Authentication :: Device: <A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_DEVICE\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_DEVICE ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_DEVICE</A><BR>
 												&nbsp;*&nbsp;Account :: Internet Protocol Address :: Last Successful Authentication :: Local: <A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_LOCAL\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_LOCAL ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_LOCAL</A><BR>
-												&nbsp;*&nbsp;Account :: Internet Protocol Address :: Last Successful Authentication :: Remote: <A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_REMOTE\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_REMOTE ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_REMOTE</A><BR>
-												&nbsp;*&nbsp;Account :: Internet Protocol Address :: Last-Known :: Remote: <A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_CURRENT_INTERNET_PROTOCOL_ADDRESS\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_CURRENT_INTERNET_PROTOCOL_ADDRESS ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_CURRENT_INTERNET_PROTOCOL_ADDRESS</A><BR><BR>
+												&nbsp;*&nbsp;Account :: Internet Protocol Address :: Last Successful Authentication :: Remote: <A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_REMOTE\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_REMOTE ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_REMOTE</A><BR><BR>
 												
 ");
 
@@ -1401,8 +1419,7 @@ if (file_exists("./Member/$_Application_Module_Member_Profile_LIST_MEMBER_USERNA
 echo ("
 												&nbsp;*&nbsp;Account :: Internet Protocol Address :: Last Successful Authentication :: Device: <A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_DEVICE\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_DEVICE ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_DEVICE</A><BR>
 												&nbsp;*&nbsp;Account :: Internet Protocol Address :: Last Successful Authentication :: Local: <A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_LOCAL\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_LOCAL ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_LOCAL</A><BR>
-												&nbsp;*&nbsp;Account :: Internet Protocol Address :: Last Successful Authentication :: Remote: <A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_REMOTE\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_REMOTE ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_REMOTE</A><BR>
-												&nbsp;*&nbsp;Account :: Internet Protocol Address :: Last-Known :: Remote: <A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_CURRENT_INTERNET_PROTOCOL_ADDRESS\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_CURRENT_INTERNET_PROTOCOL_ADDRESS ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_CURRENT_INTERNET_PROTOCOL_ADDRESS</A><BR><BR>
+												&nbsp;*&nbsp;Account :: Internet Protocol Address :: Last Successful Authentication :: Remote: <A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_REMOTE\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_REMOTE ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_REMOTE</A><BR><BR>
 												
 ");
 
@@ -1439,8 +1456,7 @@ if ($_GLOBAL_COOKIE_MEMBER_USERNAME == "$_Application_Module_Member_Profile_LIST
 echo ("
 												&nbsp;*&nbsp;Account :: Internet Protocol Address :: Last Successful Authentication :: Device: <A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_DEVICE\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_DEVICE ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_DEVICE</A><BR>
 												&nbsp;*&nbsp;Account :: Internet Protocol Address :: Last Successful Authentication :: Local: <A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_LOCAL\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_LOCAL ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_LOCAL</A><BR>
-												&nbsp;*&nbsp;Account :: Internet Protocol Address :: Last Successful Authentication :: Remote: <A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_REMOTE\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_REMOTE ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_REMOTE</A><BR>
-												&nbsp;*&nbsp;Account :: Internet Protocol Address :: Last-Known :: Remote: <A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_CURRENT_INTERNET_PROTOCOL_ADDRESS\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_CURRENT_INTERNET_PROTOCOL_ADDRESS ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_ACCOUNT_CURRENT_INTERNET_PROTOCOL_ADDRESS</A><BR><BR>
+												&nbsp;*&nbsp;Account :: Internet Protocol Address :: Last Successful Authentication :: Remote: <A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_WHOIS/$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_REMOTE\" TITLE=\":: Open & Display :: The Who-Is Information :: For :: Internet Protocol Address :: $_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_REMOTE ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_LIST_MEMBER_STATUS_ACCOUNT_IP_ADDRESS_LAST_AUTHENTICATION_SERVER_REMOTE</A><BR><BR>
 												
 ");
 
@@ -2405,6 +2421,69 @@ if ($_GET["Display"] == "Log") {
  ============================================================================================================
  +
  +
+ + [ @ ] Internal Application: Display :: Log :: Type :: Search
+ +
+ +
+ ============================================================================================================
+*/
+
+if ($_GET["Search"] == "Interaction") {
+
+/*
+ ============================================================================================================
+ + Variables :: Post Variables :: Select Date
+ ============================================================================================================
+*/
+
+$_Application_Module_Member_Profile_POST_LOGS_SEARCH_SELECT_DATE_YEAR							= $_POST['AMM_Profile_Logs_Search_Specify_Date_Year'];
+$_Application_Module_Member_Profile_POST_LOGS_SEARCH_SELECT_DATE_MONTH							= $_POST['AMM_Profile_Logs_Search_Specify_Date_Month'];
+$_Application_Module_Member_Profile_POST_LOGS_SEARCH_SELECT_DATE_MONTH_DAY						= $_POST['AMM_Profile_Logs_Search_Specify_Date_Month_Day'];
+
+if (!$_Application_Module_Member_Profile_POST_LOGS_SEARCH_SELECT_DATE_MONTH_DAY) {
+
+echo ("
+												<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Profile&amp;Name&#61;$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME&amp;Display&#61;Log&amp;Search&#61;Interaction&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\">
+													<I><B>Log :: Interaction Log :: Search :: Select Date</B></I>:<BR>
+													Year:<BR>
+														<INPUT TYPE=\"year\" NAME=\"AMM_Profile_Logs_Search_Specify_Date_Year\" VALUE=\"$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_YEAR_FULL\" MAXLENGTH=\"4\"><BR>
+													Month:<BR>
+														<INPUT TYPE=\"text\" NAME=\"AMM_Profile_Logs_Search_Specify_Date_Month\" VALUE=\"$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_FULL\" MAXLENGTH=\"2\"><BR>
+													Day:<BR>
+														<INPUT TYPE=\"text\" NAME=\"AMM_Profile_Logs_Search_Specify_Date_Month_Day\" VALUE=\"$_GLOBAL_LOCAL_SERVER_DATE_NUMERICAL_MONTH_DAY_FULL\" MAXLENGTH=\"2\"><BR>
+													<INPUT TYPE=\"submit\" VALUE=\"Select Date\">
+												</FORM>
+");
+
+} else {
+
+$_Application_Module_Member_Profile_POST_LOGS_INTERACTION_SEARCH_DATE_CONTENTS_FILE				= file_get_contents("./Member/$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME/Files/Document/Activity_Logging/$_Application_Module_Member_Profile_POST_LOGS_SEARCH_SELECT_DATE_YEAR/$_Application_Module_Member_Profile_POST_LOGS_SEARCH_SELECT_DATE_MONTH/$_Application_Module_Member_Profile_POST_LOGS_SEARCH_SELECT_DATE_MONTH_DAY/Log_Member_Raw.txt");
+$_Application_Module_Member_Profile_POST_LOGS_INTERACTION_SEARCH_DATE_CONTENTS_HASH				= hash_file('sha256', "./Member/$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME/Files/Document/Activity_Logging/$_Application_Module_Member_Profile_POST_LOGS_SEARCH_SELECT_DATE_YEAR/$_Application_Module_Member_Profile_POST_LOGS_SEARCH_SELECT_DATE_MONTH/$_Application_Module_Member_Profile_POST_LOGS_SEARCH_SELECT_DATE_MONTH_DAY/Log_Member_Raw.txt");
+
+if (file_exists("./Member/$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME/Files/Document/Activity_Logging/$_Application_Module_Member_Profile_POST_LOGS_SEARCH_SELECT_DATE_YEAR/$_Application_Module_Member_Profile_POST_LOGS_SEARCH_SELECT_DATE_MONTH/$_Application_Module_Member_Profile_POST_LOGS_SEARCH_SELECT_DATE_MONTH_DAY/Log_Member_Raw.txt")) {
+
+echo ("
+											Log :: Interaction Log :: For Selected Date :: Year: $_Application_Module_Member_Profile_POST_LOGS_SEARCH_SELECT_DATE_YEAR - Month: $_Application_Module_Member_Profile_POST_LOGS_SEARCH_SELECT_DATE_MONTH - Day: $_Application_Module_Member_Profile_POST_LOGS_SEARCH_SELECT_DATE_MONTH_DAY<BR>
+											File Integrity :: Secure-Hash-Algorithm, 256 :: Current File: $_Application_Module_Member_Profile_POST_LOGS_INTERACTION_SEARCH_DATE_CONTENTS_HASH<BR>
+
+											<FORM>
+												<TEXTAREA ROWS=\"20\" COLS=\"125\">$_Application_Module_Member_Profile_POST_LOGS_INTERACTION_SEARCH_DATE_CONTENTS_FILE</TEXTAREA>
+											</FORM>
+");
+
+} else {
+
+											echo ("Kernel Message: Log File: Interaction Does Not Exist For The Selected Date.<BR><BR>");
+											
+} // [ + ] IF: File Exists: Registered Member Account :: File :: Log File :: Interaction
+
+} // [ + ] IF: Internal Application: Display :: Log :: Search :: Interaction :: Input Form Variables HAVE NOT Executed
+
+} // [ + ] IF: Internal Application: Display :: Log :: Search :: Interaction :: Is: Activated
+
+/*
+ ============================================================================================================
+ +
+ +
  + [ @ ] Internal Application: Display :: Log :: Type :: Interaction
  +
  +
@@ -2425,7 +2504,7 @@ echo ("
 											</FORM>
 ");
 
-} // [ + ] IF: Internal Application: Display :: Log :: Type :: Interaction Is Activated
+} // [ + ] IF: Internal Application: Display :: Log :: Type :: Interaction :: Is: Activated
 
 /*
  ============================================================================================================
@@ -2450,7 +2529,7 @@ echo ("
 											</FORM>
 ");
 
-} // [ + ] IF: Internal Application: Display :: Log :: Type :: Authentication Is Activated
+} // [ + ] IF: Internal Application: Display :: Log :: Type :: Authentication :: Is: Activated
 
 /*
  ============================================================================================================
@@ -2466,7 +2545,7 @@ if ($_GET["Type"] == "GPS") {
 
 echo ("Nothing here yet...");
 
-} // [ + ] IF: Internal Application: Display :: Log :: Type :: Global-Positioning-System Is Activated
+} // [ + ] IF: Internal Application: Display :: Log :: Type :: Global-Positioning-System :: Is: Activated
 
 } // [ + ] IF: Internal Application: Display :: Log Is Activated
 
@@ -2879,7 +2958,7 @@ while (($_Application_Module_Member_Profile_Gallery_OPEN_DIRECTORY_GALLERY_DOCUM
  ============================================================================================================
 */
 
-if ($_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT == "." || $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT == ".." || $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT == "index.php") {
+if ($_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT == "." || $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT == ".." || $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT == "Backup" || $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT == "index.php") {
 /**
  * Do Nothing
 **/
