@@ -383,15 +383,15 @@ if ($_GET["Display"] == "Options") {
 echo ("
 <B>System :: Settings</B>
 <HR ALIGN=\"LEFT\" WIDTH=\"20%\">
-
+* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;System&amp;Display&#61;Settings&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Internal Application :: System :: Settings ::\">System :: Settings</A><BR>
 * <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;System&amp;Display&#61;Time&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Internal Application :: Statistics ::\">System :: Settings :: Date and Time</A><BR>
-* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;System&amp;Display&#61;Settings&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Internal Application :: Statistics ::\">System :: Settings :: Plug-Ins</A><BR><BR>
+* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;System&amp;Display&#61;Settings&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Internal Application :: System :: Settings :: Statistics ::\">System :: Settings :: Plug-Ins</A><BR><BR>
 
 <B>System :: Information</B>
 <HR ALIGN=\"LEFT\" WIDTH=\"20%\">
-* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;System&amp;Display&#61;Networking&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Internal Application :: Statistics ::\">System :: Information :: Network Information</A><BR>
-* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;System&amp;Display&#61;Software&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Internal Application :: Statistics ::\">System :: Information :: Software Information</A><BR>
-* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;System&amp;Display&#61;Statistics&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Internal Application :: Statistics ::\">System :: Information :: Statistics</A><BR><BR>
+* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;System&amp;Display&#61;Networking&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Internal Application :: System :: Information :: Networking Information ::\">System :: Information :: Network Information</A><BR>
+* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;System&amp;Display&#61;Software&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Internal Application :: System :: Information :: Software Information ::\">System :: Information :: Software Information</A><BR>
+* <A HREF=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;System&amp;Display&#61;Statistics&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Internal Application :: System :: Information :: Statistics :: System-Wide :: \">System :: Information :: Statistics :: System-Wide</A><BR><BR>
 ");
 
 } // [ + ] IF: Internal Application: Display :: Options :: Is: Activated
@@ -456,6 +456,70 @@ echo ("
 
 											<B>Settings :: System :: Language</B><BR>
 												*&nbsp;System :: Language: $_GLOBAL_SYSTEM_LANGUAGE_DIRECTORY<BR><BR>
+												
+											<B>Settings :: System :: Security :: Web-Page Output :: Cache :: Cache-Circumvention
+											</B><HR ALIGN=\"LEFT\" WIDTH=\"20%\">
+
+											<B>Settings :: Security :: Cache Circumvention</B><BR>
+												*&nbsp;Security :: Setting :: Cache Circumvention :: Status :: $_GLOBAL_SETTING_SYSTEM_SECURITY_SETTING_STATUS_CACHE_CIRCUMVENTION | $_Application_Module_Member_System_System_Security_Module_Status_Cache_Circumvention<BR><BR>
+
+											<B>Settings :: System :: Security :: Account Control :: Authorization
+											</B><HR ALIGN=\"LEFT\" WIDTH=\"20%\">
+
+											<B>Settings :: Security :: Account Authorization</B><BR>
+												*&nbsp;Account Restrictions :: MAC Address: $_GLOBAL_SYSTEM_SETTING_ACCOUNT_SECURITY_RESTRICT_AUTHORIZED_MAC_ADDRESS<BR>
+												*&nbsp;Account Restrictions :: Internet Protocol Address: $_GLOBAL_SYSTEM_SETTING_ACCOUNT_SECURITY_RESTRICT_AUTHORIZED_INTERNET_PROTOCOL_ADDRESS<BR>
+												*&nbsp;Account Restrictions :: Web Browser: $_GLOBAL_SYSTEM_SETTING_ACCOUNT_SECURITY_RESTRICT_AUTHORIZED_WEB_BROWSER<BR><BR>
+
+											<B>Settings :: Security :: Cache-Circumvention :: Random Generated Strings</B><BR>
+												*&nbsp;=> Secure HASH Algorithm, 512 :: Hyper-Text Reference<BR>
+												$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION<BR>
+												*&nbsp;=> Secure HASH Algorithm, 512 :: Audio<BR>
+												$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_AUDIO_RANDOM_STRING_GENERATION<BR>
+												*&nbsp;=> Secure HASH Algorithm, 512 :: Document<BR>
+												$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_DOCUMENT_RANDOM_STRING_GENERATION<BR>
+												*&nbsp;=> Secure HASH Algorithm, 512 :: Image<BR>
+												$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATION<BR>
+												*&nbsp;=> Secure HASH Algorithm, 512 :: Video<BR>
+												$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_VIDEO_RANDOM_STRING_GENERATION<BR>
+												*&nbsp;=> Secure HASH Algorithm, 512 :: Internal File Inclusion<BR>
+												$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILEINCLUSION_RANDOM_STRING_GENERATION<BR><BR>
+
+												<B>File Categories</B><BR>
+												*&nbsp;File Size Upload Limitations :: In BITS :: File System :: $_GLOBAL_SYSTEM_UPLOAD_SIZE_PUBLIC_FILE_CATEGORIES<BR><BR>
+
+												<B>Registered Member Account :: Data</B><BR>
+												*&nbsp;File Size Upload Limitations :: In BITS :: Registered Member Account :: Media :: Audio: $_GLOBAL_SYSTEM_UPLOAD_SIZE_PRIVATE_MEMBER_AUDIO<BR>
+												*&nbsp;File Size Upload Limitations :: In BITS :: Registered Member Account :: Media :: Document: $_GLOBAL_SYSTEM_UPLOAD_SIZE_PRIVATE_MEMBER_DOCUMENT<BR>
+												*&nbsp;File Size Upload Limitations :: In BITS :: Registered Member Account :: Media :: Image: $_GLOBAL_SYSTEM_UPLOAD_SIZE_PRIVATE_MEMBER_IMAGE<BR>
+												*&nbsp;File Size Upload Limitations :: In BITS :: Registered Member Account :: Media :: Video: $_GLOBAL_SYSTEM_UPLOAD_SIZE_PRIVATE_MEMBER_VIDEO<BR><BR>
+
+												<B>Registered Member Account :: Streams</B><BR>
+												*&nbsp;File Size Upload Limitations :: In BITS :: Registered Member Account :: Streams :: Individual Files :: Audio: $_GLOBAL_SYSTEM_UPLOAD_SIZE_PRIVATE_MEMBER_STREAMS_AUDIO<BR>
+												*&nbsp;File Size Upload Limitations :: In BITS :: Registered Member Account :: Streams :: Individual Files :: Document: $_GLOBAL_SYSTEM_UPLOAD_SIZE_PRIVATE_MEMBER_STREAMS_DOCUMENT<BR>
+												*&nbsp;File Size Upload Limitations :: In BITS :: Registered Member Account :: Streams :: Individual Files :: Image: $_GLOBAL_SYSTEM_UPLOAD_SIZE_PRIVATE_MEMBER_STREAMS_IMAGE<BR>
+												*&nbsp;File Size Upload Limitations :: In BITS :: Registered Member Account :: Streams :: Individual Files :: Video: $_GLOBAL_SYSTEM_UPLOAD_SIZE_PRIVATE_MEMBER_STREAMS_VIDEO<BR><BR>
+
+												<B>Instant Messenger :: Data</B><BR>
+												*&nbsp;File Size Upload Limitations :: In BITS :: Instant Messenger :: Audio: $_GLOBAL_SYSTEM_UPLOAD_SIZE_PUBLIC_FILE_MESSENGER_AUDIO<BR>
+												*&nbsp;File Size Upload Limitations :: In BITS :: Instant Messenger :: Document: $_GLOBAL_SYSTEM_UPLOAD_SIZE_PUBLIC_FILE_MESSENGER_DOCUMENT<BR>
+												*&nbsp;File Size Upload Limitations :: In BITS :: Instant Messenger :: Image: $_GLOBAL_SYSTEM_UPLOAD_SIZE_PUBLIC_FILE_MESSENGER_IMAGE<BR>
+												*&nbsp;File Size Upload Limitations :: In BITS :: Instant Messenger :: Video: $_GLOBAL_SYSTEM_UPLOAD_SIZE_PUBLIC_FILE_MESSENGER_VIDEO<BR><BR>
+");
+												
+} // [ + ] IF: Internal Application: Display :: Settings :: Is: Activated
+
+/*
+ ============================================================================================================
+ +
+ + IF: Internal Application: Display :: Is: Settings :: Plug-Ins
+ +
+ ============================================================================================================
+*/
+												
+if ($_GET["Display"] == "Plug-Ins") {
+
+echo ("
 
 											<B>Settings :: System :: Plug-Ins :: Current</B><HR><BR>
 
@@ -534,58 +598,9 @@ echo ("
 											<B>Settings :: Security :: Security Modules</B><BR>
 												*&nbsp;Security Module :: Master Sanitization Module :: Directory :: $_GLOBAL_SETTING_SYSTEM_SECURITY_MODULE_DIRECTORY_MASTER_SANITIZATION<BR>
 												*&nbsp;Security Module :: Master Sanitization Module :: Status :: $_GLOBAL_SETTING_SYSTEM_SECURITY_MODULE_STATUS_MASTER_SANITIZATION | $_Application_Module_Member_System_System_Security_Module_Status_Master_Sanitization<BR><BR>
-
-											<B>Settings :: System :: Security :: Web-Page Output :: Cache :: Cache-Circumvention
-											</B><HR ALIGN=\"LEFT\" WIDTH=\"20%\">
-
-											<B>Settings :: Security :: Cache Circumvention</B><BR>
-												*&nbsp;Security :: Setting :: Cache Circumvention :: Status :: $_GLOBAL_SETTING_SYSTEM_SECURITY_SETTING_STATUS_CACHE_CIRCUMVENTION | $_Application_Module_Member_System_System_Security_Module_Status_Cache_Circumvention<BR><BR>
-
-											<B>Settings :: System :: Security :: Account Control :: Authorization
-											</B><HR ALIGN=\"LEFT\" WIDTH=\"20%\">
-
-											<B>Settings :: Security :: Account Authorization</B><BR>
-												*&nbsp;Account Restrictions :: MAC Address: $_GLOBAL_SYSTEM_SETTING_ACCOUNT_SECURITY_RESTRICT_AUTHORIZED_MAC_ADDRESS<BR>
-												*&nbsp;Account Restrictions :: Internet Protocol Address: $_GLOBAL_SYSTEM_SETTING_ACCOUNT_SECURITY_RESTRICT_AUTHORIZED_INTERNET_PROTOCOL_ADDRESS<BR>
-												*&nbsp;Account Restrictions :: Web Browser: $_GLOBAL_SYSTEM_SETTING_ACCOUNT_SECURITY_RESTRICT_AUTHORIZED_WEB_BROWSER<BR><BR>
-
-											<B>Settings :: Security :: Cache-Circumvention :: Random Generated Strings</B><BR>
-												*&nbsp;=> Secure HASH Algorithm, 512 :: Hyper-Text Reference<BR>
-												$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION<BR>
-												*&nbsp;=> Secure HASH Algorithm, 512 :: Audio<BR>
-												$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_AUDIO_RANDOM_STRING_GENERATION<BR>
-												*&nbsp;=> Secure HASH Algorithm, 512 :: Document<BR>
-												$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_DOCUMENT_RANDOM_STRING_GENERATION<BR>
-												*&nbsp;=> Secure HASH Algorithm, 512 :: Image<BR>
-												$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATION<BR>
-												*&nbsp;=> Secure HASH Algorithm, 512 :: Video<BR>
-												$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_VIDEO_RANDOM_STRING_GENERATION<BR>
-												*&nbsp;=> Secure HASH Algorithm, 512 :: Internal File Inclusion<BR>
-												$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_FILEINCLUSION_RANDOM_STRING_GENERATION<BR><BR>
-
-												<B>File Categories</B><BR>
-												*&nbsp;File Size Upload Limitations :: In BITS :: File System :: $_GLOBAL_SYSTEM_UPLOAD_SIZE_PUBLIC_FILE_CATEGORIES<BR><BR>
-
-												<B>Registered Member Account :: Data</B><BR>
-												*&nbsp;File Size Upload Limitations :: In BITS :: Registered Member Account :: Media :: Audio: $_GLOBAL_SYSTEM_UPLOAD_SIZE_PRIVATE_MEMBER_AUDIO<BR>
-												*&nbsp;File Size Upload Limitations :: In BITS :: Registered Member Account :: Media :: Document: $_GLOBAL_SYSTEM_UPLOAD_SIZE_PRIVATE_MEMBER_DOCUMENT<BR>
-												*&nbsp;File Size Upload Limitations :: In BITS :: Registered Member Account :: Media :: Image: $_GLOBAL_SYSTEM_UPLOAD_SIZE_PRIVATE_MEMBER_IMAGE<BR>
-												*&nbsp;File Size Upload Limitations :: In BITS :: Registered Member Account :: Media :: Video: $_GLOBAL_SYSTEM_UPLOAD_SIZE_PRIVATE_MEMBER_VIDEO<BR><BR>
-
-												<B>Registered Member Account :: Streams</B><BR>
-												*&nbsp;File Size Upload Limitations :: In BITS :: Registered Member Account :: Streams :: Individual Files :: Audio: $_GLOBAL_SYSTEM_UPLOAD_SIZE_PRIVATE_MEMBER_STREAMS_AUDIO<BR>
-												*&nbsp;File Size Upload Limitations :: In BITS :: Registered Member Account :: Streams :: Individual Files :: Document: $_GLOBAL_SYSTEM_UPLOAD_SIZE_PRIVATE_MEMBER_STREAMS_DOCUMENT<BR>
-												*&nbsp;File Size Upload Limitations :: In BITS :: Registered Member Account :: Streams :: Individual Files :: Image: $_GLOBAL_SYSTEM_UPLOAD_SIZE_PRIVATE_MEMBER_STREAMS_IMAGE<BR>
-												*&nbsp;File Size Upload Limitations :: In BITS :: Registered Member Account :: Streams :: Individual Files :: Video: $_GLOBAL_SYSTEM_UPLOAD_SIZE_PRIVATE_MEMBER_STREAMS_VIDEO<BR><BR>
-
-												<B>Instant Messenger :: Data</B><BR>
-												*&nbsp;File Size Upload Limitations :: In BITS :: Instant Messenger :: Audio: $_GLOBAL_SYSTEM_UPLOAD_SIZE_PUBLIC_FILE_MESSENGER_AUDIO<BR>
-												*&nbsp;File Size Upload Limitations :: In BITS :: Instant Messenger :: Document: $_GLOBAL_SYSTEM_UPLOAD_SIZE_PUBLIC_FILE_MESSENGER_DOCUMENT<BR>
-												*&nbsp;File Size Upload Limitations :: In BITS :: Instant Messenger :: Image: $_GLOBAL_SYSTEM_UPLOAD_SIZE_PUBLIC_FILE_MESSENGER_IMAGE<BR>
-												*&nbsp;File Size Upload Limitations :: In BITS :: Instant Messenger :: Video: $_GLOBAL_SYSTEM_UPLOAD_SIZE_PUBLIC_FILE_MESSENGER_VIDEO<BR><BR>
 ");
-												
-} // [ + ] IF: Internal Application: Display :: Settings :: Is: Activated
+
+} // [ + ] IF: Internal Application: Display :: Plug-Ins :: Is: Activated
 												
 /*
  ============================================================================================================
