@@ -66,13 +66,7 @@
 */
 
 echo ("
-<B>Time :: Server :: This Server</B><BR>
-* $_GLOBAL_LOCAL_SERVER_DATE_STANDARD<BR><BR>
-
-<B>Time :: Server :: Connected Device</B><BR>
-* Unix-Epoch: <A HREF=\"$_SYSTEM_SERVER_NETWORKING_RESOLVER_TIMESTAMP_UNIX_EPOCH\" TITLE=\":: Open & Display :: The :: Unix-Epoch Time Reader ::\" TARGET=\"_NEW\">$_GLOBAL_LOCAL_SERVER_TIME_UNIX</A><BR><BR>
-
-<B>G.P.S. :: Server :: Connected Device</B><BR>
+<B>G.P.S. Coordinates :: Connected Device</B><BR>
 * Latitude: <A ID=\"getLocationOutputLatitude\" TITLE=\":: Global-Positioning-System :: Coordinates :: Latitude ::\"></A><BR>
 * Longitude: <A ID=\"getLocationOutputLongitude\" TITLE=\":: Global-Positioning-System :: Coordinates ::: Longitude ::\"></A><BR>
 * Altitude Above Sea-Level: <A ID=\"getLocationOutputAltitude\" TITLE=\":: Global-Positioning-System :: Coordinates :: Altitude ::\"></A><BR>
