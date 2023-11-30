@@ -1469,7 +1469,7 @@ imagedestroy($_Application_Module_Member_Account_Data_POST_UPLOAD_DIRECTORY_GALL
  ============================================================================================================
 */
 
-$_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_SELECTION_DIRECTORY						= $_POST['AMM_Account_Data_Upload_Gallery_Image_Selection_Directory'];
+$_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_SELECTION_DIRECTORY								= $_POST['AMM_Account_Data_Upload_Gallery_Image_Selection_Directory'];
 
 /*
  ============================================================================================================
@@ -1477,8 +1477,8 @@ $_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_SELECTION_DIR
  ============================================================================================================
 */
 
-$_Application_Module_Member_Account_Data_UPLOAD_GALLERY_IMAGE_SELECTION_FIND_DIRECTORY_TEMPORARY_UPLOAD				= "./Temporary/Upload/";
-$_Application_Module_Member_Account_Data_UPLOAD_GALLERY_IMAGE_SELECTION_DATA 							= $_Application_Module_Member_Account_Data_UPLOAD_GALLERY_IMAGE_SELECTION_FIND_DIRECTORY_TEMPORARY_UPLOAD . basename($_FILES['AMM_Account_Data_Upload_File_Gallery_Image_Selection_Multiple']['name']);
+$_Application_Module_Member_Account_Data_UPLOAD_GALLERY_IMAGE_SELECTION_FIND_DIRECTORY_TEMPORARY_UPLOAD				= "./Temporary/Upload/Image";
+$_Application_Module_Member_Account_Data_UPLOAD_GALLERY_IMAGE_SELECTION_DATA 										= $_Application_Module_Member_Account_Data_UPLOAD_GALLERY_IMAGE_SELECTION_FIND_DIRECTORY_TEMPORARY_UPLOAD . basename($_FILES['AMM_Account_Data_Upload_File_Gallery_Image_Selection_Multiple']['name']);
 
 /*
  ============================================================================================================
@@ -1486,8 +1486,8 @@ $_Application_Module_Member_Account_Data_UPLOAD_GALLERY_IMAGE_SELECTION_DATA 			
  ============================================================================================================
 */
 
-$_Application_Module_Member_Account_Data_UPLOAD_GALLERY_IMAGE_SELECTION_FILE_EXTENSIONS_ALLOWED					= "jpg gif png bmp jpeg";
-$_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_SELECTION_DIRECTORY_TEMPORARY				= $_POST['AMM_Account_Data_Upload_Gallery_Image_Selection_Directory_Temporary'];
+$_Application_Module_Member_Account_Data_UPLOAD_GALLERY_IMAGE_SELECTION_FILE_EXTENSIONS_ALLOWED						= "jpg gif png bmp jpeg";
+$_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_SELECTION_DIRECTORY_TEMPORARY					= $_POST['AMM_Account_Data_Upload_Gallery_Image_Selection_Directory_Temporary'];
 
 
 /*
@@ -1501,7 +1501,7 @@ if (!$_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_SELECTIO
 echo ("
 												<B>Gallery :: Image :: Selection :: File :: Upload<HR WIDTH=\"50%\" ALIGN=\"LEFT\">
 											<FORM ACTION=\"?$_INTERNAL_APPLICATION_MODULE_MEMBER&#61;Account_Data&amp;Display&#61;Gallery&amp;Type&#61;Image&amp;$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_HTR_RANDOM_STRING_GENERATION\" METHOD=\"post\" ENCTYPE=\"multipart/form-data\">
-												[ Maximum Image File Upload Size: $_Application_Module_Member_Account_Data_MAXIMUM_UPLOAD_SIZE_FILE_VIDEO KB ]</B><BR>
+												[ Maximum Image File Upload Size: $_Application_Module_Member_Account_Data_MAXIMUM_UPLOAD_SIZE_FILE_IMAGE KB ]</B><BR>
 												Allowed File Extensions :: Image :: BMP, GIF, JPG, JPEG, PNG<BR>
 													<INPUT TYPE=\"file\" NAME=\"AMM_Account_Data_Upload_File_Gallery_Image_Selection_Multiple[]\" MAXLENGTH=\"150\" MULTIPLE><BR>
 													<INPUT TYPE=\"hidden\" NAME=\"AMM_Account_Data_Upload_Gallery_Image_Selection_Directory_Temporary\" VALUE=\"1\">
@@ -1594,7 +1594,7 @@ if (in_array(strtolower($_Application_Module_Member_Account_Data_POST_UPLOAD_GAL
  ============================================================================================================
 */
 
-if (move_uploaded_file($_FILES['AMM_Account_Data_Upload_File_Gallery_Image_Selection_Multiple']['tmp_name'][$i],"$_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_SELECTION_FILE_LOCATION")) {
+if (move_uploaded_file($_FILES['AMM_Account_Data_Upload_File_Gallery_Image_Selection_Multiple']['name'][$i],"$_Application_Module_Member_Account_Data_POST_UPLOAD_GALLERY_IMAGE_SELECTION_FILE_LOCATION")) {
 
                         $_Application_Module_Member_Account_Data_UPLOAD_GALLERY_IMAGE_SELECTION_FILE_TOTAL_FILES_UPLOADED++;
 						
