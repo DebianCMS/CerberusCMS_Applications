@@ -3019,7 +3019,7 @@ $_Application_Module_Member_Profile_Gallery_OPEN_DIRECTORY_GALLERY_DOCUMENT				=
  ============================================================================================================
 */
 
-while (($_Application_Module_Member_Profile_Gallery_OPEN_DIRECTORY_GALLERY_DOCUMENT = readdir($_Application_Module_Member_Profile_Gallery_OPEN_DIRECTORY_GALLERY_DOCUMENT))) {
+while (($_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT = readdir($_Application_Module_Member_Profile_Gallery_OPEN_DIRECTORY_GALLERY_DOCUMENT))) {
 
 /*
  ============================================================================================================
@@ -3072,7 +3072,7 @@ if ($_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT_
 **/
 } else {
 
-echo ("* <A HREF=\"$_Application_Module_Member_Profile_Gallery_FIND_DIRECTORY_GALLERY_DOCUMENT_ALBUM/$_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT_ALBUM\" TITLE=\":: Open & Display :: The Document :: $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT_ALBUM ::\" TARGET=\"_NEW\">$_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT_ALBUM</A><BR>");
+echo ("<A HREF=\"./Member/$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME/Files/Document/Gallery/$_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT/$_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT_ALBUM?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_DOCUMENT_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Media Gallery :: Document :: Album :: $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT :: File :: $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT_ALBUM :: For :: This Registered Member Account :: \" TARGET=\"_NEW\"><IMG SRC=\"./Theme/$_GLOBAL_SYSTEM_THEME_DIRECTORY/Image/Icon_Member/Icon_Profile_Account_Data_Document_Gallery_File.png\" WIDTH=\"50\" HEIGHT=\"50\"></IMG></A>&nbsp;&nbsp;&nbsp;");
 
 } // [ + ] IF: STOP: Remote-File-Inclusion AND Local-File-Inclusion
 
@@ -3125,13 +3125,13 @@ while (($_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUM
  ============================================================================================================
 */
 
-if ($_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT == "." || $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT == ".." || $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT == "index.php") {
+if ($_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT == "." || $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT == ".." || $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT == "Backup" || $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT == "index.php") {
 /**
  * Do Nothing
 **/
 } else {
 
-echo ("* <A HREF=\"./Member/$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME/Files/Document/Gallery/$_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Media Gallery :: Document :: For :: This Registered Member Account :: \">$_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT</A><BR>");
+echo ("<A HREF=\"./Member/$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME/Files/Document/Gallery/$_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT/$_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT_ALBUM?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_DOCUMENT_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Media Gallery :: Document :: Album :: $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT :: File :: $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT_ALBUM :: For :: This Registered Member Account :: \" TARGET=\"_NEW\"><IMG SRC=\"./Theme/$_GLOBAL_SYSTEM_THEME_DIRECTORY/Image/Icon_Member/Icon_Profile_Account_Data_Document_Gallery_File.png\" WIDTH=\"50\" HEIGHT=\"50\"></IMG></A>&nbsp;&nbsp;&nbsp;");
 
 } // [ + ] IF: STOP: Exploit :: Remote-File-Inclusion AND Local-File-Inclusion
 
@@ -3190,13 +3190,13 @@ while (($_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUM
  ============================================================================================================
 */
 
-if ($_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT == "." || $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT == ".." || $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT == "index.php") {
+if ($_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT == "." || $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT == ".." || $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT == "Backup" || $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT == "index.php") {
 /**
  * Do Nothing
 **/
 } else {
 
-echo ("* <A HREF=\"./Member/$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME/Files/Document/Gallery/$_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_IMAGE_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Media Gallery :: Document :: For :: This Registered Member Account :: \">$_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT</A><BR>");
+echo ("<A HREF=\"./Member/$_Application_Module_Member_Profile_LIST_MEMBER_USERNAME/Files/Document/Gallery/$_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT/$_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT_ALBUM?$_GLOBAL_SYSTEM_SECURITY_CACHE_CIRCUMVENTION_DOCUMENT_RANDOM_STRING_GENERATION\" TITLE=\":: Open & Display :: The Media Gallery :: Document :: Album :: $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT :: File :: $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT_ALBUM :: For :: This Registered Member Account :: \" TARGET=\"_NEW\"><IMG SRC=\"./Theme/$_GLOBAL_SYSTEM_THEME_DIRECTORY/Image/Icon_Member/Icon_Profile_Account_Data_Document_Gallery_File.png\" WIDTH=\"50\" HEIGHT=\"50\"></IMG></A>&nbsp;&nbsp;&nbsp;");
 
 } // [ + ] IF: STOP: Exploit :: Remote-File-Inclusion AND Local-File-Inclusion
 
@@ -3267,7 +3267,7 @@ while (($_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_IMAGE
  ============================================================================================================
 */
 
-if ($_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_IMAGE_PROFILE == "." || $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_IMAGE_PROFILE == ".." || $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_IMAGE_PROFILE == "index.php") {
+if ($_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_IMAGE_PROFILE == "." || $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_IMAGE_PROFILE == ".." || $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_DOCUMENT == "Backup" || $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_IMAGE_PROFILE == "index.php") {
 /**
  * Do Nothing
 **/
@@ -3372,7 +3372,7 @@ while (($_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_IMAGE
  ============================================================================================================
 */
 
-if ($_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_IMAGE_ALBUM == "." || $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_IMAGE_ALBUM == ".." || $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_IMAGE_ALBUM == "index.php") {
+if ($_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_IMAGE_ALBUM == "." || $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_IMAGE_ALBUM == ".." || $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_IMAGE == "Backup" || $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_IMAGE_ALBUM == "index.php") {
 /**
  * Do Nothing
 **/
@@ -3431,7 +3431,7 @@ while (($_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_IMAGE
  ============================================================================================================
 */
 
-if ($_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_IMAGE == "." || $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_IMAGE == ".." || $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_IMAGE == "index.php") {
+if ($_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_IMAGE == "." || $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_IMAGE == ".." || $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_IMAGE == "Backup" || $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_IMAGE == "index.php") {
 /**
  * Do Nothing
 **/
@@ -3496,7 +3496,7 @@ while (($_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_IMAGE
  ============================================================================================================
 */
 
-if ($_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_IMAGE == "." || $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_IMAGE == ".." || $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_IMAGE == "index.php") {
+if ($_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_IMAGE == "." || $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_IMAGE == ".." || $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_IMAGE == "Backup" || $_Application_Module_Member_Profile_Gallery_READ_DIRECTORY_GALLERY_IMAGE == "index.php") {
 /**
  * Do Nothing
 **/
